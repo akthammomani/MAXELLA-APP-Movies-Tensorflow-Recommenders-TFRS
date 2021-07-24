@@ -20,6 +20,7 @@ The "100k-ratings" and "1m-ratings" versions in addition include the following d
 
  * "user_gender": gender of the user who made the rating; a true value corresponds to male
  * "bucketized_user_age": bucketized age values of the user who made the rating, the values and the corresponding ranges are:
+ 
    * 1: "Under 18"
    * 18: "18-24"
    * 25: "25-34"
@@ -27,23 +28,23 @@ The "100k-ratings" and "1m-ratings" versions in addition include the following d
    * 45: "45-49"
    * 50: "50-55"
    * 56: "56+"
+   
  * "user_occupation_label": the occupation of the user who made the rating represented by an integer-encoded label; labels are preprocessed to be consistent across different versions
  * "user_occupation_text": the occupation of the user who made the rating in the original string; different versions can have different set of raw text labels
- * "user_zip_code": the zip code of the user who made the rating
+ * "user_zip_code": the zip code of the user who made the rating.
+
 In addition, the "100k-ratings" dataset would also have a feature "raw_user_age" which is the exact ages of the users who made the rating
 
+```
 Datasets with the "-movies" suffix contain only "movie_id", "movie_title", and "movie_genres" features.
 
-Homepage: https://grouplens.org/datasets/movielens/
-
-Source code: tfds.structured.MovieLens
-
-Versions:
-
-0.1.0 (default): No release notes.
-Supervised keys (See as_supervised doc): None
-
-Figure (tfds.show_examples): Not supported.
+ * Homepage: https://grouplens.org/datasets/movielens/
+ * Source code: tfds.structured.MovieLens
+ * Versions:
+   * 0.1.0 (default): No release notes.
+ * Supervised keys (See as_supervised doc): None
+ * Figure (tfds.show_examples): Not supported.
+```
 
 Citation:
 ```
