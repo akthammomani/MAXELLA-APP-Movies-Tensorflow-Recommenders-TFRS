@@ -59,6 +59,10 @@ FeaturesDict({
     'movie_title': tf.string,
 })
 ```
+|movie_genres	|movie_id	|movie_title|
+|4 (Comedy) |b'1681'	|b'You So Crazy (1994)'|	
+|0 (Action)|b'838'	|b'In the Line of Duty 2 (1987)'|
+
 
 **Citation:**
 ```
