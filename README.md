@@ -59,6 +59,7 @@ FeaturesDict({
     'movie_title': tf.string,
 })
 ```
+Example:
 |movie_genres	|movie_id	|movie_title|
 |:-----:|:-----:|:-----:|
 |4 (Comedy) |b'1681'	|b'You So Crazy (1994)'|	
