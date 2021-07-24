@@ -110,3 +110,19 @@ pip install --upgrade tensorflow-datasets
 ```
 
 ## Why choosing **TensorFlow Recommenders (TFRS)**?
+
+TensorFlow Recommenders (TFRS) is a library for building recommender system models.
+
+It helps with the full workflow of building a recommender system: data preparation, model formulation, training, evaluation, and deployment.
+
+It's built on Keras and aims to have a gentle learning curve while still giving you the flexibility to build complex models.
+
+TFRS makes it possible to:
+
+ * Build and evaluate flexible recommendation retrieval models.
+ * Freely incorporate item, user, and [context information](https://www.tensorflow.org/recommenders/examples/featurization) into recommendation models.
+ * Train [multi-task models](https://www.tensorflow.org/recommenders/examples/multitask/) that jointly optimize multiple recommendation objectives.
+ * 
+TFRS is open source and available on **[Github](https://github.com/tensorflow/recommenders)**.
+
+To learn more, see the [tutorial](https://www.tensorflow.org/recommenders/examples/basic_retrieval) on how to build a movie recommender system, or check the API docs for the [API](https://www.tensorflow.org/recommenders/api_docs/python/tfrs) reference.
