@@ -13,7 +13,6 @@
 Each user has rated at least 20 movies. Ratings are in whole-star increments. This dataset contains demographic data of users in addition to data on movies and ratings.
  * "user_gender": gender of the user who made the rating; a true value corresponds to male
  * "bucketized_user_age": bucketized age values of the user who made the rating, the values and the corresponding ranges are:
- 
    * 1: "Under 18"
    * 18: "18-24"
    * 25: "25-34"
@@ -21,7 +20,6 @@ Each user has rated at least 20 movies. Ratings are in whole-star increments. Th
    * 45: "45-49"
    * 50: "50-55"
    * 56: "56+"
-   
  * "user_occupation_label": the occupation of the user who made the rating represented by an integer-encoded label; labels are preprocessed to be consistent across different versions
  * "user_occupation_text": the occupation of the user who made the rating in the original string; different versions can have different set of raw text labels
  * "user_zip_code": the zip code of the user who made the rating.
