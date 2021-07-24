@@ -46,6 +46,7 @@ Supervised keys (See as_supervised doc): None
 Figure (tfds.show_examples): Not supported.
 
 Citation:
+```
 @article{10.1145/2827872,
 author = {Harper, F. Maxwell and Konstan, Joseph A.},
 title = {The MovieLens Datasets: History and Context},
@@ -64,5 +65,5 @@ articleno = {19},
 numpages = {19},
 keywords = {Datasets, recommendations, ratings, MovieLens}
 }
-
+```
 
