@@ -83,4 +83,4 @@ keywords = {Datasets, recommendations, ratings, MovieLens}
 
 ## TensorFlow Recommenders Installation:
 
-For free error **TensorFlow Recommenders (TFRS)** installation, please create a fresh conda enviroment before proceeding with **TensorFlow Recommenders (TFRS)** installation and review all packages versions to make sure they're matching **[TensorFlow Recommenders (TFRS)](https://www.tensorflow.org/install Requirements)** to avoid any conflicts
+For free error **TensorFlow Recommenders (TFRS)** installation, please create a fresh conda enviroment before proceeding with **TensorFlow Recommenders (TFRS)** installation and review all packages versions to make sure they're matching **[TensorFlow Recommenders (TFRS) Requirements](https://www.tensorflow.org/install)** to avoid any conflicts
