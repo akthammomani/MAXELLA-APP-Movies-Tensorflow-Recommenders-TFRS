@@ -50,7 +50,7 @@ Datasets with the "-movies" suffix contain only "movie_id", "movie_title", and "
 Each user has rated at least 20 movies. Ratings are in whole-star increments. This dataset contains demographic data of users in addition to data on movies and ratings.
  * Download size: 4.70 MiB
  * Dataset size: 32.41 MiB
- * Auto-cached ([documentation](https://www.tensorflow.org/datasets/performances#auto-caching): Yes
+ * Auto-cached ([documentation](https://www.tensorflow.org/datasets/performances#auto-caching)): Yes
  * Features:
  ```
  FeaturesDict({
