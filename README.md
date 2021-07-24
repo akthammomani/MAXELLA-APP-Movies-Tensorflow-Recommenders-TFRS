@@ -86,7 +86,7 @@ keywords = {Datasets, recommendations, ratings, MovieLens}
 For free error **TensorFlow Recommenders (TFRS)** installation, please create a fresh conda enviroment before proceeding with **TensorFlow Recommenders (TFRS)** installation and review all packages versions to make sure they're matching **[TensorFlow Recommenders (TFRS) Requirements](https://www.tensorflow.org/install)** to avoid any conflicts:
 
 ```
-# TensorFlow is tested and supported on the following 64-bit systems: Python 3.6–3.8 & Windows 7 or later
+# TensorFlow is tested and supported on Windows 7 or later 64-bit systems: (Python 3.6–3.8)
 # Create a fresh conda enviroment: Note Python 3.6–3.8
 conda create --name tfrs python=3.7
 
