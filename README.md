@@ -69,7 +69,24 @@ Each user has rated at least 20 movies. Ratings are in whole-star increments. Th
 })
  ```
 
-Citation:
+**(2) movie_lens/100k-movies:**
+
+ * Config description: This dataset contains data of 1,682 movies rated in the 100k dataset.
+ * Download size: 4.70 MiB
+ * Dataset size: 150.35 KiB
+ * Auto-cached ([documentation](https://www.tensorflow.org/datasets/performances#auto-caching)): Yes
+ * Features:
+```
+FeaturesDict({
+    'movie_genres': Sequence(ClassLabel(shape=(), dtype=tf.int64, num_classes=21)),
+    'movie_id': tf.string,
+    'movie_title': tf.string,
+})
+```
+
+
+
+**Citation:**
 ```
 @article{10.1145/2827872,
 author = {Harper, F. Maxwell and Konstan, Joseph A.},
