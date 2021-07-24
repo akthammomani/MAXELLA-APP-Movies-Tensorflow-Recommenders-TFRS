@@ -14,9 +14,9 @@
  * "1m": This is the largest MovieLens dataset that contains demographic data.
  * "20m": This is one of the most used MovieLens datasets in academic papers along with the 1m dataset.
 
-**For this project will focus mainly in **100K** dataset**
+**For this project will focus mainly in **100K** dataset**: 100k-ratings & 100k-movies
 
-The "100k-ratings" and "1m-ratings" versions in addition include the following demographic features.
+The "100k-ratings" versions in addition include the following demographic features.
 
  * "user_gender": gender of the user who made the rating; a true value corresponds to male
  * "bucketized_user_age": bucketized age values of the user who made the rating, the values and the corresponding ranges are:
@@ -45,6 +45,29 @@ Datasets with the "-movies" suffix contain only "movie_id", "movie_title", and "
  * Supervised keys (See as_supervised doc): None
  * Figure (tfds.show_examples): Not supported.
 ```
+(1) movie_lens/100k-ratings:
+ * Config description: This dataset contains 100,000 ratings from 943 users on 1,682 movies. This dataset is the oldest version of the MovieLens dataset.
+Each user has rated at least 20 movies. Ratings are in whole-star increments. This dataset contains demographic data of users in addition to data on movies and ratings.
+ * Download size: 4.70 MiB
+ * Dataset size: 32.41 MiB
+ * Auto-cached ([documentation](https://www.tensorflow.org/datasets/performances#auto-caching): Yes
+ * Features:
+ ```
+ FeaturesDict({
+    'bucketized_user_age': tf.float32,
+    'movie_genres': Sequence(ClassLabel(shape=(), dtype=tf.int64, num_classes=21)),
+    'movie_id': tf.string,
+    'movie_title': tf.string,
+    'raw_user_age': tf.float32,
+    'timestamp': tf.int64,
+    'user_gender': tf.bool,
+    'user_id': tf.string,
+    'user_occupation_label': ClassLabel(shape=(), dtype=tf.int64, num_classes=22),
+    'user_occupation_text': tf.string,
+    'user_rating': tf.float32,
+    'user_zip_code': tf.string,
+})
+ ```
 
 Citation:
 ```
