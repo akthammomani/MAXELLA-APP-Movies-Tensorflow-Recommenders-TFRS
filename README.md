@@ -107,5 +107,6 @@ pip install tensorflow-recommenders
 
 # Make sure we get latest TFRS Datasets:
 pip install --upgrade tensorflow-datasets
-
 ```
+
+## Why choosing **TensorFlow Recommenders (TFRS)**?
