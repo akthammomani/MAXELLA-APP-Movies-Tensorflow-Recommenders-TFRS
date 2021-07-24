@@ -1,1 +1,1 @@
-# MAXELLA-APP-Movies-Tensorflow-Recommenders-TFRS
+# MAXELLA Application for to recommend Movies using Tensorflow Recommenders (TFRS)
