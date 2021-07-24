@@ -1,2 +1,1 @@
-# MAXELLA Web Application
-### Movies Recommender using Tensorflow Recommenders (TFRS)
+# MAXELLA for Movies Recommendations using Tensorflow Recommenders (TFRS)
