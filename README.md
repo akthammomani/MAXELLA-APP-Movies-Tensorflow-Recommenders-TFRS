@@ -49,7 +49,7 @@
     'user_occupation_text': tf.string,
     'user_rating': tf.float32,
     'user_zip_code': tf.string,
-})
+           })
  ```
  Example:
 |bucketized_user_age	|movie_genres|	movie_id|	movie_title|	raw_user_age|	timestamp|	user_gender|	user_id	|user_occupation_label|	user_occupation_text	|user_rating	|user_zip_code|
@@ -69,7 +69,7 @@ FeaturesDict({
     'movie_genres': Sequence(ClassLabel(shape=(), dtype=tf.int64, num_classes=21)),
     'movie_id': tf.string,
     'movie_title': tf.string,
-})
+            })
 ```
 Example:
 |movie_genres	|movie_id	|movie_title|
@@ -97,7 +97,7 @@ month = dec,
 articleno = {19},
 numpages = {19},
 keywords = {Datasets, recommendations, ratings, MovieLens}
-}
+           }
 ```
 
 ## TensorFlow Recommenders Installation:
