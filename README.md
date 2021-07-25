@@ -126,6 +126,8 @@ pip install tensorflow-recommenders
 
 # Make sure we get latest TFRS Datasets:
 pip install --upgrade tensorflow-datasets
+
+pip install ipywidgets
 ```
 
 ## Why choosing **TensorFlow Recommenders (TFRS)**?
