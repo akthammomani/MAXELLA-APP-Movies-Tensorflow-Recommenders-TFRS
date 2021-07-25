@@ -9,16 +9,16 @@
 
 **Movie Lens** contains a set of movie ratings from the MovieLens website, a movie recommendation service. This dataset was collected and maintained by [GroupLens](https://grouplens.org/) , a research group at the University of Minnesota. There are 5 versions included: "25m", "latest-small", "100k", "1m", "20m". In all datasets, the movies data and ratings data are joined on "movieId". The 25m dataset, latest-small dataset, and 20m dataset contain only movie data and rating data. The 1m dataset and 100k dataset contain demographic data in addition to movie and rating data.
 
-**movie_lens/100k** can be treated in two ways:
+**movie_lens/1m** can be treated in two ways:
 
   * It can be interpreted as expressesing which movies the users watched (and rated), and which they did not. This is a form of *implicit feedback*, where users' watches tell us which things they prefer to see and which they'd rather not see (This means that every movie a user watched is a positive example, and every movie they have not seen is an implicit negative example).
   * It can also be seen as expressesing how much the users liked the movies they did watch. This is a form of *explicit feedback*: given that a user watched a movie, we can tell roughly how much they liked by looking at the rating they have given.
 
 
 
-**(1) movie_lens/100k-ratings:**
- * Config description: This dataset contains 100,000 ratings from 943 users on 1,682 movies. This dataset is the oldest version of the MovieLens dataset.
-Each user has rated at least 20 movies. Ratings are in whole-star increments. This dataset contains demographic data of users in addition to data on movies and ratings.
+**(1) movie_lens/1m-ratings:**
+ * Config description: This dataset contains 1,000,209 anonymous ratings of approximately 3,900 movies made by 6,040 MovieLens users who joined MovieLens. Ratings are in whole-star increments. This dataset contains demographic data of users in addition to data on movies and ratings.
+ * This dataset is the largest dataset that includes demographic data from movie_lens.
  * "user_gender": gender of the user who made the rating; a true value corresponds to male
  * "bucketized_user_age": bucketized age values of the user who made the rating, the values and the corresponding ranges are:
    * 1: "Under 18"
@@ -31,9 +31,9 @@ Each user has rated at least 20 movies. Ratings are in whole-star increments. Th
  * "user_occupation_label": the occupation of the user who made the rating represented by an integer-encoded label; labels are preprocessed to be consistent across different versions
  * "user_occupation_text": the occupation of the user who made the rating in the original string; different versions can have different set of raw text labels
  * "user_zip_code": the zip code of the user who made the rating.
- * Download size: 4.70 MiB
- * Dataset size: 32.41 MiB
- * Auto-cached ([documentation](https://www.tensorflow.org/datasets/performances#auto-caching)): Yes
+ * Download size: 5.64 MiB
+ * Dataset size: 308.42 MiB
+ * Auto-cached ([documentation](https://www.tensorflow.org/datasets/performances#auto-caching)): No
  * Features:
  ```
  FeaturesDict({
@@ -57,11 +57,11 @@ Each user has rated at least 20 movies. Ratings are in whole-star increments. Th
 |45.0	|7 (Drama)|b'357'	|b"One Flew Over the Cuckoo's Nest (1975)"	|46.0	|879024327	|True	|b'138'	|4 (doctor/health care)	|b'doctor'	|4.0|	b'53211'|
 
 
-**(2) movie_lens/100k-movies:**
+**(2) movie_lens/1m-movies:**
 
- * Config description: This dataset contains data of 1,682 movies rated in the 100k dataset.
- * Download size: 4.70 MiB
- * Dataset size: 150.35 KiB
+ * Config description: This dataset contains data of approximately 3,900 movies rated in the 1m dataset.
+ * Download size: 5.64 MiB
+ * Dataset size: 351.12 KiB
  * Auto-cached ([documentation](https://www.tensorflow.org/datasets/performances#auto-caching)): Yes
  * Features:
 ```
