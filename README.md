@@ -1,4 +1,4 @@
-# MAXELLA App
+# Maxella App
 *Movies Recommendation using Tensorflow Recommenders (TFRS)*
 
 <p align="center">
