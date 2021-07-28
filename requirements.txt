@@ -39,6 +39,7 @@ tensorflow-datasets==4.3.0
 tensorflow-estimator==2.5.0
 tensorflow-metadata==1.1.0
 tensorflow-recommenders==0.5.2
+typing-extensions==3.7.4.3
 urllib3==1.26.6
 wheel==0.36.2
-typing-extensions==3.7.4.3
+
