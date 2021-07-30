@@ -1,16 +1,13 @@
 #!/usr/bin/env python
 # coding: utf-8
 
-#################################################################################
-#                                                                               #
-#                        TensorFlow Recommenders (TFRS)                         #
-#                 First Stage: Retrieval (The Two Tower Model)                  #
-#                                                                               #
-################################################################################# 
+######################################################################
+##                   TensorFlow Recommenders (TFRS)                 ##
+##            First Stage: Retrieval (The Two Tower Model)          ##
+###################################################################### 
 
 
 # Import the necessary Libararies: 
-
 import os
 import pprint
 import tempfile
