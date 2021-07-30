@@ -16,7 +16,7 @@
 
 
 
-**(1) movie_lens/1m-ratings:**
+**(1) [movie_lens/1m-ratings](https://www.tensorflow.org/datasets/catalog/movie_lens#movie_lens1m-ratings):**
  * Config description: This dataset contains 1,000,209 anonymous ratings of approximately 3,900 movies made by 6,040 MovieLens users who joined MovieLens. Ratings are in whole-star increments. This dataset contains demographic data of users in addition to data on movies and ratings.
  * This dataset is the largest dataset that includes demographic data from movie_lens.
  * "user_gender": gender of the user who made the rating; a true value corresponds to male
@@ -57,7 +57,7 @@
 |45.0	|7 (Drama)|b'357'	|b"One Flew Over the Cuckoo's Nest (1975)"	|46.0	|879024327	|True	|b'138'	|4 (doctor/health care)	|b'doctor'	|4.0|	b'53211'|
 
 
-**(2) movie_lens/1m-movies:**
+**(2) [movie_lens/1m-movies](https://www.tensorflow.org/datasets/catalog/movie_lens#movie_lens1m-movies):**
 
  * Config description: This dataset contains data of approximately 3,900 movies rated in the 1m dataset.
  * Download size: 5.64 MiB
