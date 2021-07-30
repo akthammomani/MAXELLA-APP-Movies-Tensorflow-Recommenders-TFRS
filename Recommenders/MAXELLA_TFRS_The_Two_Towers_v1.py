@@ -8,6 +8,7 @@
 
 
 # Import the necessary Libararies: 
+
 import os
 import pprint
 import tempfile
@@ -238,7 +239,7 @@ cached_test = test.batch(2048).cache()
 # Then, let's train the model:
 history_train = model.fit(cached_train, validation_data = cached_test, epochs=32)
 
-# 4.6 Visualization: Total loss and Accuracy over epochs
+# Visualization: Total loss and Accuracy over epochs
 
 plt.subplots(figsize = (16,6))
 plt.plot(history_train.history['total_loss'] )
