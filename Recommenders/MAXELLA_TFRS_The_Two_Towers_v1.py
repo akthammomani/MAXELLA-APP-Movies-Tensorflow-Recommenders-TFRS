@@ -3,7 +3,7 @@
 
 ######################################################################
 ##                   TensorFlow Recommenders (TFRS)                 ##
-##            First Stage: Retrieval (The Two Tower Model)          ##
+##            First Stage: Retrieval (The Two-Tower Model)          ##
 ###################################################################### 
 
 
