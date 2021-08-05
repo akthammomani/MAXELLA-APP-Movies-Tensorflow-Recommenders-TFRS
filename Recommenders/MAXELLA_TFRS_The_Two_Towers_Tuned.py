@@ -49,16 +49,11 @@ ratings = tfds.load("movielens/1m-ratings", split="train", shuffle_files=True)
 movies = tfds.load("movielens/1m-movies", split="train", shuffle_files=True)
 
 
-# In[4]:
-
-
 #The ratings dataset returns a dictionary of movie id, user id, the assigned rating, timestamp, movie information, and user information:
 #View the data from ratings dataset:
 for x in ratings.take(1).as_numpy_iterator():
     pprint.pprint(x)
 
-
-# In[5]:
 
 
 #The movies dataset contains the movie id, movie title, and data on what genres it belongs to. Note that the genres are encoded with integer labels:
@@ -117,8 +112,6 @@ unique_movie_titles[:10]
 len_films = len(unique_movie_titles)
 print(len_films) 
 
-
-# In[11]:
 
 
 #users unique
@@ -536,7 +529,6 @@ print(f"Recommendations for user 42: {titles[0, :5]}")
 
 
 # 6. Model serving
-
 
 
 # Export the query model.
