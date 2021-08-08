@@ -2,7 +2,7 @@
 # coding: utf-8
 
 # # TensorFlow Recommenders (TFRS) - Second Stage: Ranking
-#
+
 
 ######################################################################
 ##                   TensorFlow Recommenders (TFRS)                 ##
@@ -36,10 +36,8 @@ import tensorflow_recommenders as tfrs
 plt.style.use('ggplot')
 
 
-
 # Ratings data.
 ratings = tfds.load("movielens/1m-ratings", split="train", shuffle_files=True)
-
 
 
 #The ratings dataset returns a dictionary of movie id, user id, the assigned rating, timestamp, movie information, and user information:
@@ -48,12 +46,9 @@ for x in ratings.take(1).as_numpy_iterator():
     pprint.pprint(x)
 
 
-
 type(ratings)
 
-
 # Next, As you can see below, in the map function, the ratings are considered explicit feedback since we can tell roughly how much the users like the movies based on the rating numbers.
-
 
 #Let's select the necessary attributes:
 
@@ -64,11 +59,7 @@ ratings = ratings.map(lambda x: {
                                 })
 
 
-
-
 len(ratings)
-
-
 
 
 # let's use a random split, putting 75% of the ratings in the train set, and 25% in the test set:
@@ -103,11 +94,9 @@ unique_movie_titles[:10]
 
 
 
-
 #Movies uniques
 len_films = len(unique_movie_titles)
 print(len_films) 
-
 
 
 #users unique
@@ -227,8 +216,6 @@ plt.legend(loc='upper right')
 plt.show()
 
 
-
-
 #Evaluate the model
 model.evaluate(cached_test, return_dict=True)
 
@@ -278,8 +265,6 @@ class RankingModel(tf.keras.Model):
 RankingModel()((["42"], ["7th Voyage of Sinbad, The (1958)"]))
 
 
-
-
 task = tfrs.tasks.Ranking(
                          loss = tf.keras.losses.MeanSquaredError(),
                          metrics=[tf.keras.metrics.RootMeanSquaredError()]
@@ -316,12 +301,8 @@ cached_train = train.shuffle(l).batch(8192).cache()
 cached_test = test.batch(2048).cache()
 
 
-
-
 # Then, let's train the model:
 history_train_1 = model_1.fit(cached_train, validation_data = cached_test, epochs=32)
-
-
 
 
 plt.subplots(figsize = (16,6))
@@ -345,10 +326,8 @@ plt.legend(loc='upper right')
 plt.show()
 
 
-
 #Evaluate the model
 model_1.evaluate(cached_test, return_dict=True)
-
 
 
 class RankingModel(tf.keras.Model):
@@ -463,11 +442,8 @@ plt.legend(loc='upper right')
 plt.show()
 
 
-
-
 #Evaluate the model
 model_2.evaluate(cached_test, return_dict=True)
-
 
 
 
@@ -514,9 +490,7 @@ class RankingModel(tf.keras.Model):
 
 
 
-
 RankingModel()((["42"], ["7th Voyage of Sinbad, The (1958)"]))
-
 
 
 
@@ -524,7 +498,6 @@ task = tfrs.tasks.Ranking(
                          loss = tf.keras.losses.MeanSquaredError(),
                          metrics=[tf.keras.metrics.RootMeanSquaredError()]
                          )
-
 
 
 class MovielensModel(tfrs.models.Model):
@@ -559,12 +532,8 @@ cached_train = train.shuffle(l).batch(8192).cache()
 cached_test = test.batch(2048).cache()
 
 
-
-
 # Then, let's train the model:
 history_train_3 = model_3.fit(cached_train, validation_data = cached_test, epochs=32)
-
-
 
 
 plt.subplots(figsize = (16,6))
@@ -577,8 +546,6 @@ plt.legend(loc='upper right')
 plt.show()
 
 
-
-
 plt.subplots(figsize = (16,6))
 plt.plot(history_train_3.history['root_mean_squared_error'],color='red', alpha=0.8, label='RMSE-Train')
 plt.plot(history_train_3.history['val_root_mean_squared_error'],color='green', alpha=0.8, label='RMSE-Test')
@@ -587,8 +554,6 @@ plt.title("RMSE over epochs", fontsize=14)
 plt.xlabel('epochs')
 plt.legend(loc='upper right')
 plt.show()
-
-
 
 
 #Evaluate the model
@@ -601,7 +566,6 @@ model_3.evaluate(cached_test, return_dict=True)
 # 
 #  * Let's add weight constraint, which imposes a hard rule on the weights, max norm that forces the vector norm of the weights to be below a value=3. Once exceeded all weights in the node are made small enough to meet the constraint.
 #  * Let's add Dropout: Generally, using a small dropout value of 20%-50% of neurons with 20% providing a good starting point. A probability too low has minimal effect and a value too high results in under-learning by the network.
-
 
 
 class RankingModel(tf.keras.Model):
@@ -699,12 +663,8 @@ cached_train = train.shuffle(l).batch(8192).cache()
 cached_test = test.batch(2048).cache()
 
 
-
-
 # Then, let's train the model:
 history_train_4 = model_4.fit(cached_train, validation_data = cached_test, epochs=32)
-
-
 
 
 
@@ -718,9 +678,6 @@ plt.legend(loc='upper right')
 plt.show()
 
 
-
-
-
 plt.subplots(figsize = (16,6))
 plt.plot(history_train_4.history['root_mean_squared_error'],color='red', alpha=0.8, label='RMSE-Train')
 plt.plot(history_train_4.history['val_root_mean_squared_error'],color='green', alpha=0.8, label='RMSE-Test')
@@ -731,12 +688,8 @@ plt.legend(loc='upper right')
 plt.show()
 
 
-
-
 #Evaluate the model
 model_4.evaluate(cached_test, return_dict=True)
-
-
 
 
 test_ratings ={}
