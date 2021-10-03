@@ -6,7 +6,9 @@
 
 ######################################################################
 ##                   TensorFlow Recommenders (TFRS)                 ##
-##           TFRS - Tuning Ranking (Second Stage: Ranking)          ##
+##           TFRS - Tuning Ranking (Second Stage: Ranking)          ##    
+##                      Created by: Aktham Momani                   ##
+##                            Aug 07 2021                           ##
 ###################################################################### 
 
 
