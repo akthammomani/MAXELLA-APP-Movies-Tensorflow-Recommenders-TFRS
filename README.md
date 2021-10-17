@@ -28,6 +28,28 @@
    * 45: "45-49"
    * 50: "50-55"
    * 56: "56+"
+  * "movie_genres": The Genres of the movies are classified into 21 different classes as below:
+   * 0: Action
+   * 1: Adventure
+   * 2: Animation
+   * 3: Children
+   * 4: Comedy
+   * 5: Crime
+   * 6: Documentary
+   * 7: Drama
+   * 8: Fantasy
+   * 9: Film-Noir
+   * 10: Horror
+   * 11: IMAX
+   * 12: Musical
+   * 13: Mystery
+   * 14: Romance
+   * 15: Sci-Fi
+   * 16: Thriller
+   * 17: Unknown
+   * 18: War
+   * 19: Western
+   * 20: no genres listed
  * "user_occupation_label": the occupation of the user who made the rating represented by an integer-encoded label; labels are preprocessed to be consistent across different versions
  * "user_occupation_text": the occupation of the user who made the rating in the original string; different versions can have different set of raw text labels
  * "user_zip_code": the zip code of the user who made the rating.
