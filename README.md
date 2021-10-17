@@ -28,8 +28,8 @@
    * 45: "45-49"
    * 50: "50-55"
    * 56: "56+"
-  * "movie_genres": The Genres of the movies are classified into 21 different classes as below:
-   * 0: Action
+ * "movie_genres": The Genres of the movies are classified into 21 different classes as below:
+   *  0: Action
    * 1: Adventure
    * 2: Animation
    * 3: Children
