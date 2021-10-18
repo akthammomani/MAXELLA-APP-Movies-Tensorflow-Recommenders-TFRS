@@ -218,5 +218,5 @@ For this let's do the following:
  * For folium to work without error, zipcode needs to be in a string format. 
  * Try to limit the number of zipcodes to avoid any memory errors, in our case we'll be taking only CA Zipcodes which are available in the Movie lens 1M Dataset.
  * Also, we'll be using external databases:
-  - To get the coordinate of the zipcodes --> This is needed for to highlight the zipcodes as labels in the map.
-  - To get a geoJSON file which has coordinates of zipcode --> This is needed to map the zipcodes boundaries.
+   - To get the coordinate of the zipcodes --> This is needed for to highlight the zipcodes as labels in the map.
+   - To get a geoJSON file which has coordinates of zipcode --> This is needed to map the zipcodes boundaries.
