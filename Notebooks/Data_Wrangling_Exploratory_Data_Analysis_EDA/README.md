@@ -223,9 +223,20 @@ For this let's do the following:
 
 
 ```
-#Let's first center our map into the UC Berkeley University - California:
+# Let's first import the necessary libraries:
+import requests
+import folium
+from folium.plugins import MarkerCluster
+
+#Then, let's center our map into the UC Berkeley University - California:
 frame = folium.Figure(width=1200, height=800)
 map = folium.Map(location=[37.871306354746736, -122.25881885075532], default_zoom_start=25).add_to(frame)
+
+#Now, let's export the geoJSON file which has coordinates of zipcode
+url = 'https://raw.githubusercontent.com/OpenDataDE/State-zip-code-GeoJSON/master/ca_california_zip_codes_geo.min.json'
+res = requests.get(url, allow_redirects=True)
+with open('ca-zip-codes.geojson','wb') as file:
+    file.write(res.content)
 
 folium.Choropleth(geo_data="ca-zip-codes.geojson",
              data=ca_rate_zip, # my dataset
