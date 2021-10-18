@@ -155,7 +155,7 @@ Ok, That's interesting both males and females have shown the same trend in ratin
 
 ![rate_gender](https://user-images.githubusercontent.com/67468718/137814346-d6043b5f-927d-4a53-953b-a0a985a538c8.JPG)
 
-**(7) What are the most rated movies? In terms of:**
+**(7) What are the most rated movies? In terms of?**
 
  * All Time
 ![top_10_all_time](https://user-images.githubusercontent.com/67468718/137815594-7c81318d-e53b-46b7-9b1a-d78c7be9839c.JPG)
@@ -167,7 +167,8 @@ Ok, That's interesting both males and females have shown the same trend in ratin
 ![top_10_watched_gender_1](https://user-images.githubusercontent.com/67468718/137815667-f8956c4a-e3c2-4f85-b259-375a5ed6a1db.JPG)
 ![top_10_watched_gender_2](https://user-images.githubusercontent.com/67468718/137815669-0c285200-a1b3-478b-96a1-50408943e408.JPG)
 
-**(8) What are the most loved Movies? In terms of:**
+**(8) What are the most loved Movies? In terms of?**
+
 
  * All time
 ![top_10_love_all_time](https://user-images.githubusercontent.com/67468718/137816003-c43da1c7-aca8-4c77-98f3-c62c2efbfd1a.JPG)
