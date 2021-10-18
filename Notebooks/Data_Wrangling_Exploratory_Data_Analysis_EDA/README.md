@@ -220,3 +220,31 @@ For this let's do the following:
  * Also, we'll be using external databases:
    - To get the coordinate of the zipcodes --> This is needed for to highlight the zipcodes as labels in the map.
    - To get a geoJSON file which has coordinates of zipcode --> This is needed to map the zipcodes boundaries.
+
+
+```
+#Let's first center our map into the UC Berkeley University - California:
+frame = folium.Figure(width=1200, height=800)
+map = folium.Map(location=[37.871306354746736, -122.25881885075532], default_zoom_start=25).add_to(frame)
+
+folium.Choropleth(geo_data="ca-zip-codes.geojson",
+             data=ca_rate_zip, # my dataset
+             # zip code below for matching the geojson zipcode, User Rating is the column that changes the color of zipcode areas
+             columns=['user_zip_code', 'user_rating'],
+             # this path contains zipcodes in str type, this zipcodes should match with our ZIP CODE column
+             key_on='feature.properties.ZCTA5CE10',
+             fill_color='YlGn', fill_opacity=0.7, line_opacity=0.2, nan_fill_opacity=0.1, 
+             legend_name='user_rating').add_to(map)
+
+# Finally, Let's create marker clusters
+marker_cluster = MarkerCluster().add_to(map) 
+for i in range((ca_rate_zip.shape[0])):
+    location = [ca_rate_zip['Latitude'][i], ca_rate_zip['Longitude'][i]]
+    tooltip = "Zipcode: {}".format(ca_rate_zip["user_zip_code"][i])
+    folium.Marker(location, 
+                  popup="""
+                  <i>Avg Movie Rating: </i> <br> <b>${}</b> 
+                  """.format(round(ca_rate_zip['user_rating'][i],2)),
+                  tooltip=tooltip).add_to(marker_cluster)             
+
+```
