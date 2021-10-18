@@ -179,3 +179,8 @@ Ok, That's interesting both males and females have shown the same trend in ratin
 ![loved_top_10_gender_1](https://user-images.githubusercontent.com/67468718/137815999-517930c3-6d81-45f4-b269-2d1ae2eaf231.JPG)
 ![loved_top_10_gender_2](https://user-images.githubusercontent.com/67468718/137816001-19627615-3723-4b19-ace7-982c1ee5a4d7.JPG)
 
+**(9) Which year the users were interested the most to rate/watch movies?**
+
+Alright, looks like our users were mainly interested in rating/watching the 90s Movies.
+
+![movies_release](https://user-images.githubusercontent.com/67468718/137817235-dca8ff5c-601b-45ec-aa7d-4d82a51c3967.JPG)
