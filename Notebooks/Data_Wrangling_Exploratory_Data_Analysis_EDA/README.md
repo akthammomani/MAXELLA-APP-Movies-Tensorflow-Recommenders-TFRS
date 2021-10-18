@@ -127,3 +127,11 @@ As shown below, looks like Summer & Holidays Months are the highest, which make 
 As shown below, looks like people enjoys watching/rating movies during weekdays and probably going out for a theater during the weekend (low rating/watching).
 
 ![movies_day](https://user-images.githubusercontent.com/67468718/137811859-e329a1b4-63fd-4a73-8530-14573511c22d.JPG)
+
+**(3) Who watches/rates more movies Men/Women?**
+
+As shown below, Males look like are more interesting in rating movies than females!!
+
+![gender](https://user-images.githubusercontent.com/67468718/137811957-d43b723a-b1a9-4382-9161-e9f99da664d4.JPG)
+
+
