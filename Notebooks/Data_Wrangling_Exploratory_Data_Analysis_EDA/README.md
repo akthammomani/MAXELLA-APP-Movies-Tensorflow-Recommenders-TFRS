@@ -187,6 +187,10 @@ Alright, looks like our users were mainly interested in rating/watching the 90s 
 
 **(10) What are the worst movies per rating?**
 
+To Answer this question, we'll be using wordcloud package. documnetations and more details can found [here)(http://amueller.github.io/word_cloud/).
+
+Below is the code used to produce the worst movies in terms of ratings:
+
 ```
 from wordcloud import WordCloud
 movies_ratings_sum = df.groupby('movie_id').sum().user_rating.sort_values()
