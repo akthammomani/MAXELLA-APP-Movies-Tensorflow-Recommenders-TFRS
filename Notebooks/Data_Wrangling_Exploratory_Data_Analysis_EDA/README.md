@@ -121,3 +121,9 @@ In the other hand, **Exploratory Data Analysis EDA Step**, let's focus in the fo
 As shown below, looks like Summer & Holidays Months are the highest, which make sense!!!
 
 ![movies_month](https://user-images.githubusercontent.com/67468718/137811621-77527920-5995-49fa-8027-964726e277f9.JPG)
+
+**(2) What is the preferable day of the week to rate/watch movies?**
+
+As shown below, looks like people enjoys watching/rating movies during weekdays and probably going out for a theater during the weekend (low rating/watching).
+
+![movies_day](https://user-images.githubusercontent.com/67468718/137811859-e329a1b4-63fd-4a73-8530-14573511c22d.JPG)
