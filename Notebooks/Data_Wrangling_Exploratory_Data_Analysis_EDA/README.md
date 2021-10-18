@@ -168,8 +168,6 @@ Ok, That's interesting both males and females have shown the same trend in ratin
 ![top_10_watched_gender_2](https://user-images.githubusercontent.com/67468718/137815669-0c285200-a1b3-478b-96a1-50408943e408.JPG)
 
 **(8) What are the most loved Movies? In terms of?**
-
-
  * All time
 ![top_10_love_all_time](https://user-images.githubusercontent.com/67468718/137816003-c43da1c7-aca8-4c77-98f3-c62c2efbfd1a.JPG)
 
