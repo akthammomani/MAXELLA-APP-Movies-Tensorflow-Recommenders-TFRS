@@ -158,7 +158,6 @@ Ok, That's interesting both males and females have shown the same trend in ratin
 **(7) What are the most rated movies? In terms of:**
 
  * All Time
-
 ![top_10_all_time](https://user-images.githubusercontent.com/67468718/137815594-7c81318d-e53b-46b7-9b1a-d78c7be9839c.JPG)
 
  * Gender Group
