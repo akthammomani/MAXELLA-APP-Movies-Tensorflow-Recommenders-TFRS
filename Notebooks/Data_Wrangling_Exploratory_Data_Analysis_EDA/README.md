@@ -143,6 +143,11 @@ As shown below, users aged between 18 to 34 are most who watch or rate Movies !!
 
 ![age](https://user-images.githubusercontent.com/67468718/137814039-506e6803-1f4f-4c0e-b825-0d29a96bd68d.JPG)
 
+**(5) Which kind of occupant watches/rates more movies?**
+
+Looks like college/grad studets aged between 18-34 are the most who watches or rates movies :)
+
+![Occupant](https://user-images.githubusercontent.com/67468718/137814204-c46ded90-54b8-47e6-82fc-e3e2f8913d90.JPG)
 
 
 
