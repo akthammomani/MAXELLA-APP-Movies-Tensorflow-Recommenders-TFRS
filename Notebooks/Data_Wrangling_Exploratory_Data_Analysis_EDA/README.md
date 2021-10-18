@@ -149,5 +149,9 @@ Looks like college/grad studets aged between 18-34 are the most who watches or r
 
 ![Occupant](https://user-images.githubusercontent.com/67468718/137814204-c46ded90-54b8-47e6-82fc-e3e2f8913d90.JPG)
 
+**(6) How much rating people give mostly? distributed between gendors?**
 
+Ok, That's interesting both males and females have shown the same trend in ratings and both have geven 4 as the highest ratings!!!
+
+![rate_gender](https://user-images.githubusercontent.com/67468718/137814346-d6043b5f-927d-4a53-953b-a0a985a538c8.JPG)
 
