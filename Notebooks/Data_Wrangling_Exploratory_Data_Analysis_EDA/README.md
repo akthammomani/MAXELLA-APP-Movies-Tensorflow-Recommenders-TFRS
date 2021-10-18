@@ -95,3 +95,14 @@ In the other hand, **Exploratory Data Analysis EDA Step**, let's focus in the fo
 |bucketized_user_age	|movie_genres|	movie_id|	movie_title|	raw_user_age|	timestamp|	user_gender|	user_id	|user_occupation_label|	user_occupation_text	|user_rating	|user_zip_code|
 |:----:|:----:|:----:|:----:|:----:|:----:|:----:|:----:|:----:|:----:|:----:|:----:|
 |45.0	|7 (Drama)|b'357'	|b"One Flew Over the Cuckoo's Nest (1975)"	|46.0	|879024327	|True	|b'138'	|4 (doctor/health care)	|b'doctor'	|4.0|	b'53211'|
+
+
+## 3. Data Wrnagling Objectives:
+
+**Data Wrangling Objective:**
+
+ * Let's change user_gender from boolian Female or Male: True --> Male, False --> Female
+ * Let's remove the symbols: (b), (') and (").
+ * Let's drop columns: user_occupation_label and movie_genres.
+ * Let's change "timestamp" which is in the unix epoch (units of seconds) to datetime64[ns]
+ * Let's fix any wrong values in user_zip_code (Any zipcode >5 characters)
