@@ -99,10 +99,17 @@ In the other hand, **Exploratory Data Analysis EDA Step**, let's focus in the fo
 
 ## 3. Data Wrnagling Objectives:
 
-**Data Wrangling Objective:**
-
  * Let's change user_gender from boolian Female or Male: True --> Male, False --> Female
  * Let's remove the symbols: (b), (') and (").
  * Let's drop columns: user_occupation_label and movie_genres.
  * Let's change "timestamp" which is in the unix epoch (units of seconds) to datetime64[ns]
  * Let's fix any wrong values in user_zip_code (Any zipcode >5 characters)
+
+
+## 4. Exploratory Data Analysis (EDA)
+
+ * To get familiar with the features in our dataset.
+ * Generally understand the core characteristics of our cleaned dataset.
+ * Explore the data relationships of all the features and understand how the features compare to the response variable.
+ * Let's be creative and think about interesting figures and all the plots that can be created to help deepen our understanding of the data.
+ * Let's create one feature that give us the year when the movie was released will call it "movie_release_year".
