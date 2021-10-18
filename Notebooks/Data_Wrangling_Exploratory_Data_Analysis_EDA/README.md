@@ -161,8 +161,9 @@ Ok, That's interesting both males and females have shown the same trend in ratin
 ![top_10_all_time](https://user-images.githubusercontent.com/67468718/137815594-7c81318d-e53b-46b7-9b1a-d78c7be9839c.JPG)
 
  * Gender Group
+![top_10_gender](https://user-images.githubusercontent.com/67468718/137815817-b883bb68-db77-49df-b74b-4922523b5833.JPG)
+
+ * Age Group
 ![top_10_watched_gender_1](https://user-images.githubusercontent.com/67468718/137815667-f8956c4a-e3c2-4f85-b259-375a5ed6a1db.JPG)
 ![top_10_watched_gender_2](https://user-images.githubusercontent.com/67468718/137815669-0c285200-a1b3-478b-96a1-50408943e408.JPG)
- * Age Group
-
 
