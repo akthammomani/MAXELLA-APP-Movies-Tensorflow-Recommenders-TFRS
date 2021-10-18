@@ -184,3 +184,22 @@ Ok, That's interesting both males and females have shown the same trend in ratin
 Alright, looks like our users were mainly interested in rating/watching the 90s Movies.
 
 ![movies_release](https://user-images.githubusercontent.com/67468718/137817235-dca8ff5c-601b-45ec-aa7d-4d82a51c3967.JPG)
+
+**(10) What are the worst movies per rating?**
+
+```
+from wordcloud import WordCloud
+movies_ratings_sum = df.groupby('movie_id').sum().user_rating.sort_values()
+movies_ratings_sum.index = df.iloc[movies_ratings_sum.index].movie_title
+# Will show movies with 0 < total_rating<= 10
+lowest_rated_movies = movies_ratings_sum[movies_ratings_sum <= 10]
+
+
+wordcloud = WordCloud(min_font_size=7, width=1200, height=800, random_state=21, max_font_size=50, relative_scaling=0.2, colormap='Dark2')
+# Substracted lowest_rated_movies from 11 so that we can have greater font size of least rated movies.
+wordcloud.generate_from_frequencies(frequencies=(11-lowest_rated_movies).to_dict())
+plt.figure(figsize=(16,10))
+plt.imshow(wordcloud, interpolation="bilinear")
+plt.axis("off")
+plt.show()
+```
