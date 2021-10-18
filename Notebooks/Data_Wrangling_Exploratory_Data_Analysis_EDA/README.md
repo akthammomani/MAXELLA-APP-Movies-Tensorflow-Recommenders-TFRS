@@ -113,3 +113,9 @@ In the other hand, **Exploratory Data Analysis EDA Step**, let's focus in the fo
  * Explore the data relationships of all the features and understand how the features compare to the response variable.
  * Let's be creative and think about interesting figures and all the plots that can be created to help deepen our understanding of the data.
  * Let's create one feature that give us the year when the movie was released will call it "movie_release_year".
+
+**Alright, let's start the fun part, let's extract insights from the dataset by asking very useful questions:**
+
+**(1) What is the preferable month of the year to rate/watch movies?**
+
+![movies_month](https://user-images.githubusercontent.com/67468718/137811621-77527920-5995-49fa-8027-964726e277f9.JPG)
