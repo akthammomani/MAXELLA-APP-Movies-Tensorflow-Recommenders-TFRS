@@ -171,7 +171,6 @@ Ok, That's interesting both males and females have shown the same trend in ratin
 
 
  * All time
-
 ![top_10_love_all_time](https://user-images.githubusercontent.com/67468718/137816003-c43da1c7-aca8-4c77-98f3-c62c2efbfd1a.JPG)
 
  * Gender Group
