@@ -134,4 +134,15 @@ As shown below, Males look like are more interesting in rating movies than femal
 
 ![gender](https://user-images.githubusercontent.com/67468718/137811957-d43b723a-b1a9-4382-9161-e9f99da664d4.JPG)
 
+**(4) What age group watches more movies?**
+
+As shown below, users aged between 18 to 34 are most who watch or rate Movies !!!:
+ * 25: 25-34 are most age group that rate movies
+ * 35: 35-44 2nd runner age group that rate movies
+ * 18: 18-24 3rd runner age group that rate movies
+
+![age](https://user-images.githubusercontent.com/67468718/137814039-506e6803-1f4f-4c0e-b825-0d29a96bd68d.JPG)
+
+
+
 
