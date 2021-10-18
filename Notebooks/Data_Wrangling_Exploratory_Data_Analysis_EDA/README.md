@@ -118,4 +118,6 @@ In the other hand, **Exploratory Data Analysis EDA Step**, let's focus in the fo
 
 **(1) What is the preferable month of the year to rate/watch movies?**
 
+As shown below, looks like Summer & Holidays Months are the highest, which make sense!!!
+
 ![movies_month](https://user-images.githubusercontent.com/67468718/137811621-77527920-5995-49fa-8027-964726e277f9.JPG)
