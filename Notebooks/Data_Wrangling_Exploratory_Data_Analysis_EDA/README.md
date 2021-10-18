@@ -167,3 +167,15 @@ Ok, That's interesting both males and females have shown the same trend in ratin
 ![top_10_watched_gender_1](https://user-images.githubusercontent.com/67468718/137815667-f8956c4a-e3c2-4f85-b259-375a5ed6a1db.JPG)
 ![top_10_watched_gender_2](https://user-images.githubusercontent.com/67468718/137815669-0c285200-a1b3-478b-96a1-50408943e408.JPG)
 
+**(8) What are the most loved Movies? In terms of:**
+
+ * All time
+![top_10_love_all_time](https://user-images.githubusercontent.com/67468718/137816003-c43da1c7-aca8-4c77-98f3-c62c2efbfd1a.JPG)
+
+ * Gender Group
+![top_10_love_gender](https://user-images.githubusercontent.com/67468718/137816004-700d5f97-4288-4b8d-a517-fd10aa44d650.JPG)
+
+ * Age Group
+![loved_top_10_gender_1](https://user-images.githubusercontent.com/67468718/137815999-517930c3-6d81-45f4-b269-2d1ae2eaf231.JPG)
+![loved_top_10_gender_2](https://user-images.githubusercontent.com/67468718/137816001-19627615-3723-4b19-ace7-982c1ee5a4d7.JPG)
+
