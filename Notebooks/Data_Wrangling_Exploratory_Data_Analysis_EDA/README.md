@@ -203,3 +203,4 @@ plt.imshow(wordcloud, interpolation="bilinear")
 plt.axis("off")
 plt.show()
 ```
+![EDA_cover](https://user-images.githubusercontent.com/67468718/137817485-16f53ed1-65d6-471f-b1aa-5c13eda65277.JPG)
