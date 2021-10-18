@@ -208,3 +208,12 @@ plt.axis("off")
 plt.show()
 ```
 ![EDA_cover](https://user-images.githubusercontent.com/67468718/137817485-16f53ed1-65d6-471f-b1aa-5c13eda65277.JPG)
+
+**(11) Is there any relation between the user rate and location?**
+
+For this let's do the following:
+
+ * We'll be using **folium Library**, due to it's impressive capability of interactive visualization. More details about folium and how to install check [here](https://pypi.org/project/folium/).
+ * Let's create Two Dataframes --> **One:** Avg user rating per Zip Code and **Two:** Takes user occupants per Zipcodes.
+ * For folium to work without error, zipcode needs to be in a string format. 
+ * Try to limit the number of zipcodes to avoid any memory errors, in our case we'll be taking only CA Zipcodes which are available in the Movie lens 1M Dataset.
