@@ -97,7 +97,7 @@ In the other hand, **Exploratory Data Analysis EDA Step**, let's focus in the fo
 |45.0	|7 (Drama)|b'357'	|b"One Flew Over the Cuckoo's Nest (1975)"	|46.0	|879024327	|True	|b'138'	|4 (doctor/health care)	|b'doctor'	|4.0|	b'53211'|
 
 
-## 3. Data Wrnagling Objectives:
+## 3. Data Wrangling Objectives:
 
  * Let's change user_gender from boolian Female or Male: True --> Male, False --> Female
  * Let's remove the symbols: (b), (') and (").
