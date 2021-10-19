@@ -261,4 +261,6 @@ for i in range((ca_rate_zip.shape[0])):
 ```
 and here is the output from Folium where we can see zipcodes are mapped and colored based on user_rating and also we have added the highlight MarkerCluster:
 
+As shown below, UC Berkeley campus (zipcode 94708) is showing high rating because the highest rating is coming from students:
+
 ![folium_rating](https://user-images.githubusercontent.com/67468718/137823686-0ac429eb-a9e2-4e32-aba8-dd062c70676c.JPG)
