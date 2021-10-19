@@ -218,7 +218,7 @@ For this let's do the following:
  * For folium to work without error, zipcode needs to be in a string format. 
  * Try to limit the number of zipcodes to avoid any memory errors, in our case we'll be taking only CA Zipcodes which are available in the Movie lens 1M Dataset.
  * Also, we'll be using external databases:
-   - To get the coordinate of the zipcodes --> This is needed for to highlight the zipcodes as labels in the map.
+   - To get the coordinate of the zipcodes --> This is needed to highlight the zipcodes as labels in the map.
    - To get a geoJSON file which has coordinates of zipcode --> This is needed to map the zipcodes boundaries.
 
 
@@ -259,3 +259,6 @@ for i in range((ca_rate_zip.shape[0])):
                   tooltip=tooltip).add_to(marker_cluster)             
 
 ```
+and here is the output from Folium where we can see zipcodes are mapped and colored based on user_rating and also we have added the highlight MarkerCluster:
+
+![folium_rating](https://user-images.githubusercontent.com/67468718/137823686-0ac429eb-a9e2-4e32-aba8-dd062c70676c.JPG)
