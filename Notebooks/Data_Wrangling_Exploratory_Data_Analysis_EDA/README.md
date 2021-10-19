@@ -6,6 +6,27 @@
   <img width="1000" height="600" src="https://user-images.githubusercontent.com/67468718/137802953-e8be7ade-21d5-4861-b9af-d657e6d2bd4e.JPG">
 </p>
 
+## Contents:
+ 
+ * Introduction
+ * Dataset
+ * Sourcing and Loading
+   * Import relevant libraries
+   * Converting Tensforflow Dataset to Pandas DataFrame
+ * Data Wrangling 
+ * Exploratory Data Analysis (EDA)
+   * What is the preferable month of the year to rate/watch movies?
+   * What is the preferable day of the week to rate/watch movies?
+   * Who watches/rates more movies Men/Women?
+   * What age group watches more movies?
+   * Which kind of occupant watches/rates more movies?
+   * How much rating people give mostly? distributed between gendors?
+   * What are the most rated movies?
+   * What are the most loved Movies?
+   * Which year the users were interested the most to rate/watch movies?
+   * What are the worst movies per rating? ***Using worldcloud Package***
+   * Is there any relation between the user rate and location? ***Using folium package for mapping zipcodes*** 
+
 ## 1. Introduction: 
 
 **The Data wrangling step** focuses on collecting or converting our data, organizing it, and making sure it's well defined. For our project we will be using  ***movie_lens/1m dataset*** from TensorFlow  because it's a unique dataset with plenty of Metadata that's needed for this project, so let' focus in below items:
