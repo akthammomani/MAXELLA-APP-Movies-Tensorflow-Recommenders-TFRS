@@ -26,6 +26,11 @@
    * Which year the users were interested the most to rate/watch movies?
    * What are the worst movies per rating? ***Using worldcloud Package***
    * Is there any relation between the user rate and location? ***Using folium package for mapping zipcodes*** 
+   * Whats the most popular Genre in our dataset?
+   * The top 10 busiest (Famous!) Directors - All Time
+   * The top 10 busiest (Famous!) Actors - All Time
+   * The top 15 largest cast Movies - All Time
+   * The top 15 largest crew Movies - All Time
 
 ## 1. Introduction: 
 
