@@ -292,7 +292,7 @@ As shown below, UC Berkeley campus (zipcode 94708) is showing high rating becaus
 
 **(12) Whats the most popular Genre in our dataset?**
 
-From shown below, we can see that the most popular Genres are Comedy (4) and Drama (7) followed by Action(0):
+As shown below, we can see that the most popular Genres are Comedy (4) and Drama (7) followed by Action(0):
 
 ![genres](https://user-images.githubusercontent.com/67468718/140027235-85498645-c3fc-470c-bfac-207a149e7e3f.JPG)
 
