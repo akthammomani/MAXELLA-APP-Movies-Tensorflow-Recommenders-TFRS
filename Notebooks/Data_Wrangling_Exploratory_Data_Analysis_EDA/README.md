@@ -296,4 +296,10 @@ From shown below, we can see that the most popular Genres are Comedy (4) and Dra
 
 ![genres](https://user-images.githubusercontent.com/67468718/140027235-85498645-c3fc-470c-bfac-207a149e7e3f.JPG)
 
+**(13) The top 15 busiest (Famous!) Directors**
+
+Alright, all these names are well known so looks like this feature will be essential addition for improving our recommender system (let's confirm using DCN-v2)!!!
+
+![directors](https://user-images.githubusercontent.com/67468718/140027233-171d26fc-c34d-4a7a-9b9a-85d257b7e109.JPG)
+
 
