@@ -10,8 +10,8 @@ In this notebook, we'll try to improve our cleaned Dataframe which was orginally
  * Add 5 more features to the original Dataset: **'cast', 'director', 'cast_size', 'crew_size', 'imdb_id', 'release_date' and movie_lens_movie_id** --> Will get these features using 2 datasets from [Movielens website](https://grouplens.org/datasets/movielens/):
    * **movies_metadata.csv**
    * **credits.csv**
-     **1. Crew:** From the crew, we will only pick the director as our feature since the others don't contribute that much to the feel of the movie.
-     **2. Cast:** Choosing Cast is a little more tricky. Lesser known actors and minor roles do not really affect people's opinion of a movie. Therefore, we must only select the major characters and their respective actors. Arbitrarily we will choose the top 4 actors that appear in the credits list.
+      **1. Crew:** From the crew, we will only pick the director as our feature since the others don't contribute that much to the feel of the movie.
+      **2. Cast:** Choosing Cast is a little more tricky. Lesser known actors and minor roles do not really affect people's opinion of a movie. Therefore, we must only select the major characters and their respective actors. Arbitrarily we will choose the top 4 actors that appear in the credits list.
 
  * Fix existing wrong movie title (or in some cases misspelled).
  * Let's remove all special characters or letter accents from Movie titles, cast and director.
