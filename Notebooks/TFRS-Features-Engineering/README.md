@@ -19,4 +19,10 @@ In this notebook, we'll try to improve our cleaned Dataframe which was orginally
  * Let's remove all special characters or letter accents from Movie titles, cast and director.
  * Add movie id which is matching the orginal movie id in the movie lens original dataset (for some reason the movie id from tensorflow dataset is not matching).
  * Fix duplicates movie_title with same movie_id.
- * After fixing above items, let's convert Pandas dataframe to tensforflow dataset.
+ * After fixing above items, let's convert Pandas dataframe to tensforflow dataset:
+ 
+   * From 'cast' features, let's drop all secondary casting and keep only the star of the movie and let's call the feature "star" 
+   * Let's make sure to keep only the important columns. 
+   * Change the data types of the important features to fit with Tensorflow-Recommender TFRS Library.
+   * Keep in mind **tfds** currently does not support **float64** so we'll be using **int64 or  float32** depends on the data.
+   * We'll wrap the **pandas dataframe** into **tf.data.Dataset** object using **tf.data.Dataset.from_tensor_slices** (To check other options - [here](https://www.srijan.net/resources/blog/building-a-high-performance-data-pipeline-with-tensorflow#gs.f33srf))
