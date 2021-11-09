@@ -36,3 +36,24 @@ There are a couple of ways to combine the cross network and the deep networ:
  * Place deep & cross networs in parallel.
  
 ![DCN_structure](https://user-images.githubusercontent.com/67468718/135774992-b26eabcf-bd9e-40c2-b702-abb1cb193ff7.JPG)
+
+## 2. Model Construction: Deep & Cross Network (DCN-V2):
+
+The model architecture we will be building starts with an embedding layer, which is fed into a cross network followed by a deep network. The embedding dimension is set to 32 for all the features. You could also use different embedding sizes for different features.
+
+### 2.1 DCN (Stacked) 
+
+We first train a DCN model with a stacked structure, that is, the inputs are fed to a cross network followed by a deep network.
+
+![DCN_stacked](https://user-images.githubusercontent.com/67468718/135777802-cacec165-ed8c-4951-85ee-f3fe1f421b4d.JPG)
+
+Features Importance using Personal Dataset:
+
+![Personal_dataset_features_importance](https://user-images.githubusercontent.com/67468718/140880610-d32918b7-ba3e-44ac-be20-d274608aae14.JPG)
+
+Features Importance using TensorFlow Dataset:
+![tensorflow_dataset_features_importance](https://user-images.githubusercontent.com/67468718/140880611-359efdea-cef6-424b-8a22-3ffbbeab48f7.JPG)
+
+
+
+
