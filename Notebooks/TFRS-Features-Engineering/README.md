@@ -1,8 +1,6 @@
 
 # TFRS Features Engineering
 
-### 1. Introduction
-
 In this notebook, we'll try to improve our cleaned Dataframe which was orginally from Tensorflow Dataset: [movie_lens/1m-ratings](https://www.tensorflow.org/datasets/catalog/movie_lens#movie_lens1m-ratings), so our focus will be mainly in: 
 
  * Fixing **"movie_genres"**: let's make sure that genres are the format of a list for easy access.
