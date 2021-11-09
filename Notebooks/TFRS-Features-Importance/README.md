@@ -1,1 +1,38 @@
+# Features Importance Using Deep & Cross Network (DCN-V2)
 
+
+![logo_small](https://user-images.githubusercontent.com/67468718/127299425-533f0a3c-c965-42a5-886a-5272170d9e0e.JPG)
+
+
+
+## 1. Introduction: Deep & Cross Network (DCN-V2)
+
+**Deep and cross network, short for DCN**, came out of Google Research, and is designed to learn explicit and bounded-degree cross features effectively:
+ * large and sparse feature space is extremely hard to train.
+ * Oftentimes, we needed to do a lot of manual feature engineering, including designing cross features, which is very challenging and less effective.
+ * Whilst possible to use additional neural networks under such circumstances, it's not the most efficient approach.
+ 
+***Deep and cross network (DCN) is specifically designed to tackle all above challenges.***
+
+
+### 1.1 Feature Cross
+
+Let's say we're building a recommender system to sell a blender to customers. Then our customers' past purchase history, such as purchased bananas and purchased cooking books, or geographic features are single features. If one has purchased both bananas and cooking books, then this customer will be more likely to click on the recommended blender. The combination of purchased bananas and the purchased cooking books is referred to as feature cross, which provides additional interaction information beyond the individual features. You can keep adding more cross features to even higher degrees:
+
+![feature_cross](https://user-images.githubusercontent.com/67468718/135774082-c46d2f22-ea20-451c-af1a-ee4453f69176.JPG)
+
+### 1.2 Cross Network
+
+In real world recommendation systems, we often have large and sparse feature space. So identifying effective feature processes in this setting would often require manual feature engineering or exhaustive search, which is highly inefficient. To tackle this issue, ***Google Research team has proposed Deep and Cross Network, DCN.***
+
+It starts with an input layer, typically an embedding layer, followed by a cross network containing multiple cross layers that models explicitly feature interactions, and then combines with a deep network that models implicit feature interactions. The deep network is just a traditional multilayer construction. But the core of DCN is really the cross network. It explicitly applies feature crossing at each layer. And the highest polynomial degree increases with layer depth. The figure here shows the deep and cross layer in the mathematical form.
+
+![dcn](https://user-images.githubusercontent.com/67468718/135774206-d017c326-2568-49ce-ab13-98b696e6de84.JPG)
+
+### 1.3 Deep & Cross Network Architecture
+
+There are a couple of ways to combine the cross network and the deep networ:
+ * Stack the deep network on top of the cross network.
+ * Place deep & cross networs in parallel.
+ 
+![DCN_structure](https://user-images.githubusercontent.com/67468718/135774992-b26eabcf-bd9e-40c2-b702-abb1cb193ff7.JPG)
