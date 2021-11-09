@@ -71,7 +71,11 @@ We train a same-sized DNN model as a reference.
 
 ## 3. Modeling Summary
 
-
+```
+DCN            RMSE mean: 1.0354, stdv: 0.0225
+DCN (low-rank) RMSE mean: 1.0098, stdv: 0.0207
+DNN            RMSE mean: 0.9535, stdv: 0.0244
+```
 
 
 
