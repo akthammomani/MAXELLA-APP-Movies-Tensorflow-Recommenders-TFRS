@@ -12,6 +12,7 @@ In this notebook, we'll try to improve our cleaned Dataframe which was orginally
    * **credits.csv**
    
       **1. Crew:** From the crew, we will only pick the director as our feature since the others don't contribute that much to the feel of the movie.
+      
       **2. Cast:** Choosing Cast is a little more tricky. Lesser known actors and minor roles do not really affect people's opinion of a movie. Therefore, we must only select the major characters and their respective actors. Arbitrarily we will choose the top 4 actors that appear in the credits list.
 
  * Fix existing wrong movie title (or in some cases misspelled).
