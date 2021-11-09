@@ -71,7 +71,7 @@ We train a same-sized DNN model as a reference.
 
 ## 3. Modeling Summary
 
-As we can see above from the features importance both of the new features added to the dataset : "director" and "star" are very importance with user_id.
+As we can see above from the features importance both of the new features added to the dataset : "director" and "star" are very important with user_id.
 
 ```
 DCN            RMSE mean: 1.0354, stdv: 0.0225
