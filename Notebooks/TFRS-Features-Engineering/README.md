@@ -26,9 +26,29 @@ In this notebook, we'll try to improve our cleaned Dataframe which was orginally
    * We'll wrap the **pandas dataframe** into **tf.data.Dataset** object using **tf.data.Dataset.from_tensor_slices** (To check other options - [here](https://www.srijan.net/resources/blog/building-a-high-performance-data-pipeline-with-tensorflow#gs.f33srf))
 
 ```
-#let's wrap the **pandas dataframe** into **tf.data.Dataset** object using **tf.data.Dataset.from_tensor_slices** using: tf.data.Dataset.from_tensor_slices
+#let's wrap the **pandas dataframe** into **tf.data.Dataset** object using **tf.data.Dataset.from_tensor_slices** 
+#using: tf.data.Dataset.from_tensor_slices
 rating = tf.data.Dataset.from_tensor_slices(dict(ratings))
 ```
 
+```
+#Let's select the necessary attributes:
+
+rating = rating.map(lambda x: {
+                                 "movie_id": x["movie_id"],
+                                 "movie_title": x["movie_title"],
+                                 "user_id": x["user_id"],
+                                 "user_rating": x["user_rating"],
+                                 "user_gender": int(x["user_gender"]),
+                                 "release_date": int(x["release_date"]),
+                                 "user_zip_code": x["user_zip_code"],
+                                 "user_occupation_text": x["user_occupation_text"],
+                                 "director": x["director"],
+                                 "star": x["star"],
+                                 "movie_genres": x["movie_genres"],    
+                                 "bucketized_user_age": int(x["bucketized_user_age"]),                                
+                                })
+```                                
+                                
 
 
