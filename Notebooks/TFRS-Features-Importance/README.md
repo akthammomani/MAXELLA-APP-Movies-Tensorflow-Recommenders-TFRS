@@ -47,11 +47,14 @@ We first train a DCN model with a stacked structure, that is, the inputs are fed
 
 ![DCN_stacked](https://user-images.githubusercontent.com/67468718/135777802-cacec165-ed8c-4951-85ee-f3fe1f421b4d.JPG)
 
+```
 Features Importance using Personal Dataset:
-
+```
 ![Personal_dataset_features_importance](https://user-images.githubusercontent.com/67468718/140880610-d32918b7-ba3e-44ac-be20-d274608aae14.JPG)
 
+```
 Features Importance using TensorFlow Dataset:
+```
 ![tensorflow_dataset_features_importance](https://user-images.githubusercontent.com/67468718/140880611-359efdea-cef6-424b-8a22-3ffbbeab48f7.JPG)
 
 
