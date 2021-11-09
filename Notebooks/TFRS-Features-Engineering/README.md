@@ -24,3 +24,11 @@ In this notebook, we'll try to improve our cleaned Dataframe which was orginally
    * Change the data types of the important features to fit with Tensorflow-Recommender TFRS Library.
    * Keep in mind **tfds** currently does not support **float64** so we'll be using **int64 or  float32** depends on the data.
    * We'll wrap the **pandas dataframe** into **tf.data.Dataset** object using **tf.data.Dataset.from_tensor_slices** (To check other options - [here](https://www.srijan.net/resources/blog/building-a-high-performance-data-pipeline-with-tensorflow#gs.f33srf))
+
+```
+#let's wrap the **pandas dataframe** into **tf.data.Dataset** object using **tf.data.Dataset.from_tensor_slices** using: tf.data.Dataset.from_tensor_slices
+rating = tf.data.Dataset.from_tensor_slices(dict(ratings))
+```
+
+
+
