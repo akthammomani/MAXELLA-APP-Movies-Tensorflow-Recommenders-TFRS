@@ -57,6 +57,21 @@ Features Importance using TensorFlow Dataset:
 ```
 ![tensorflow_dataset_features_importance](https://user-images.githubusercontent.com/67468718/140880611-359efdea-cef6-424b-8a22-3ffbbeab48f7.JPG)
 
+### 2.2 Low-rank DCN 
+
+To reduce the training and serving cost, we leverage low-rank techniques to approximate the DCN weight matrices. The rank is passed in through argument projection_dim; a smaller projection_dim results in a lower cost. Note that projection_dim needs to be smaller than (input size)/2 to reduce the cost. In practice, we've observed using low-rank DCN with rank (input size)/4 consistently preserved the accuracy of a full-rank DCN.
+
+![low-rank-dcn](https://user-images.githubusercontent.com/67468718/137226644-e5bebcf9-2648-407c-94a5-108435076570.JPG)
+
+
+### 2.3 DNN (Cross-Layer=False)
+
+We train a same-sized DNN model as a reference.
+
+
+## 3. Modeling Summary
+
+
 
 
 
