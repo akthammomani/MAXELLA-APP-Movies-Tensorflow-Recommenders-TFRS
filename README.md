@@ -173,3 +173,4 @@ We have 4 Datasets to support this project as shown above, so we'll focus in bel
    * Wrap the pandas DataFrame into tf.data.Dataset object using tf.data.Dataset.from_tensor_slices (To check other options - [here](https://www.srijan.net/resources/blog/building-a-high-performance-data-pipeline-with-tensorflow#gs.f33srf))
 
 
+![dataset_head](https://user-images.githubusercontent.com/67468718/141497590-35895da5-f162-4df6-acbd-6f25ae35562d.JPG)
