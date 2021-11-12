@@ -87,11 +87,11 @@ In this Model, we built and trained such a two-tower model using the Movielens d
  * Fit and evaluate it.
 
 **Tuning Summary**
-
+```
 As we can see below, we managed to improve accuracy and reduce loss by:
  * Increase embedding_dimension from 32-> 64
  * keeping learning_rate 0.1
- 
+``` 
 As a result, loss was reduced from 903.56 (Baseline) to 846.05 and top_10_accuracy was improved from 3.2% to 4.3%.
 
 ![2_tower](https://user-images.githubusercontent.com/67468718/141533117-466991f0-bf30-4a4e-bd8f-c8bdb2bbf81d.JPG)
