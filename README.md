@@ -182,4 +182,5 @@ We have 4 Datasets to support this project as shown above, so we'll focus in bel
        * To get the coordinate of the zipcodes --> This is needed for to highlight the zipcodes as labels in the map.
        * To get a geoJSON file which has coordinates of zipcode --> This is needed to map the zip codes boundaries.
        ![folium_rating](https://user-images.githubusercontent.com/67468718/141501541-e2ae7e21-118d-4fff-bec4-49c78aafa29d.JPG)
-
+   * We used Abstract Syntax Tree (AST) to help us in list values in the dataset (movie_genres), extract cast and directors from credits.csv by transforming existing list values feature from a list of strings to a list of list because Pandas read the lists (e.g., genres) as a string which is a problem because we cannot even loop the lists to count the genres
+     ![ast](https://user-images.githubusercontent.com/67468718/141503160-40b7dd5a-4fe5-42ac-921f-b9ee7f6e849b.JPG)
