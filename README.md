@@ -174,7 +174,7 @@ We have 4 Datasets to support this project as shown above, so we'll focus in bel
    * Movie Lens dataset transformation after Data Wrangling:
 ![dataset_head](https://user-images.githubusercontent.com/67468718/141497590-35895da5-f162-4df6-acbd-6f25ae35562d.JPG)
    * We used Folium Library to map zipcode per user_rating to give us more understanding of the users behaviour vs location:
-     * We'll be using folium Library, due to its impressive capability of interactive visualization. More details about folium and how to install check here.
+     * Folium Library, due to its impressive capability of interactive visualization. More details about folium and how to install check [here](https://pypi.org/project/folium/)).
      * Let's create Two Dataframes --> One: Avg user rating per Zip Code and Two: Takes user occupants per Zipcodes.
      * For folium to work without error, zipcode needs to be in a string format. 
      * Try to limit the number of zipcodes to avoid any memory errors, in our case we'll be taking only CA Zipcodes which are available in the Movie lens 1M Dataset.
