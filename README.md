@@ -184,3 +184,5 @@ We have 4 Datasets to support this project as shown above, so we'll focus in bel
        ![folium_rating](https://user-images.githubusercontent.com/67468718/141501541-e2ae7e21-118d-4fff-bec4-49c78aafa29d.JPG)
    * We used Abstract Syntax Tree (AST) to help us in list values in the dataset (movie_genres), extract cast and directors from credits.csv by transforming existing list values feature from a list of strings to a list of list because Pandas read the lists (e.g., genres) as a string which is a problem because we cannot even loop the lists to count the genres
      ![ast](https://user-images.githubusercontent.com/67468718/141503160-40b7dd5a-4fe5-42ac-921f-b9ee7f6e849b.JPG)
+
+## 6. [Features Importance Using Deep & Cross Network (DCN-v2)](https://github.com/akthammomani/MAXELLA-APP-Movies-Tensorflow-Recommenders-TFRS/tree/main/Notebooks/TFRS-Features-Importance)
