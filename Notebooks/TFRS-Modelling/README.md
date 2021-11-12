@@ -46,7 +46,7 @@ We first train a DCN model with a stacked structure, that is, the inputs are fed
 **DCN-v2: Features Importance**
 
 <p align="center">
-  <img width="500" height="500" src="https://user-images.githubusercontent.com/67468718/141532468-0272f2a7-5242-4dff-b756-22397424e09c.JPG">
+  <img width="500" height="400" src="https://user-images.githubusercontent.com/67468718/141532468-0272f2a7-5242-4dff-b756-22397424e09c.JPG">
 </p>
 
 ![Personal_dataset_features_importance](https://user-images.githubusercontent.com/67468718/141532468-0272f2a7-5242-4dff-b756-22397424e09c.JPG)
