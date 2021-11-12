@@ -161,7 +161,7 @@ keywords = {Datasets, recommendations, ratings, MovieLens}
            }
 ```
 
-## TensorFlow Recommenders Installation:
+## 4. TensorFlow Recommenders Installation:
 
 For free error **TensorFlow Recommenders (TFRS)** installation, we've created a fresh conda enviroment before proceeding with **TensorFlow Recommenders (TFRS)** installation and reviewed all packages versions to make sure they're matching **[TensorFlow Recommenders (TFRS) Requirements](https://www.tensorflow.org/install)** to avoid any conflicts:
 
@@ -191,7 +191,7 @@ pip install --upgrade tensorflow-datasets
 pip install ipywidgets
 ```
 
-## Why choosing **TensorFlow Recommenders (TFRS)**?
+**Why choosing **TensorFlow Recommenders (TFRS)**?
 
  * TensorFlow Recommenders (TFRS) is a library for building recommender system models.
  * It helps with the full workflow of building a recommender system: data preparation, model formulation, training, evaluation, and deployment.
@@ -205,3 +205,5 @@ TFRS makes it possible to:
 TFRS is open source and available on **[Github](https://github.com/tensorflow/recommenders)**.
 
 To learn more, see the [tutorial](https://www.tensorflow.org/recommenders/examples/basic_retrieval) on how to build a movie recommender system, or check the API docs for the [API](https://www.tensorflow.org/recommenders/api_docs/python/tfrs) reference.
+
+## 5. [Data Wrangling & Exploratory Data Analysis EDA](https://github.com/akthammomani/MAXELLA-APP-Movies-Tensorflow-Recommenders-TFRS/tree/main/Notebooks/Data_Wrangling_Exploratory_Data_Analysis_EDA)
