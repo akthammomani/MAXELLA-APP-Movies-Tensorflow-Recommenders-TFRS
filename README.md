@@ -200,4 +200,18 @@ As shown above, the stronger the interaction between two features is. In this ca
 
 ## 7. [Machine Learning Modeling: TensorFlow Recommenders (TFRS)](https://github.com/akthammomani/MAXELLA-APP-Movies-Tensorflow-Recommenders-TFRS/tree/main/Notebooks/TFRS-Modelling)
 
+Here comes the really fun step: modeling! For this step, we'll be:
+ * Feature importance using Deep and Cross Network (DCN-v2)
+ * Training multiple TensorFlow Recommenders.
+ * Apply hyperparameters tuning where applicable to ensure every algorithm will result in best prediction possible.
+ * Finally, evaluate these Models.
+
+TensorFlow Recommenders (TFRS):
+
+ * The Two-Tower Model (Retrieval Model)
+   ![2_tower](https://user-images.githubusercontent.com/67468718/141519424-888d2dc9-82b8-43fe-bfaf-04e26c4078f1.JPG)
+ * The Ranking Model
+   ![ranking](https://user-images.githubusercontent.com/67468718/141519428-207bb645-7463-4168-925b-8001ee6660b2.JPG)
+ * Multi-Task Model (Joint Model: Retrieval + Ranking)
+   ![multi task](https://user-images.githubusercontent.com/67468718/141519425-d741a96c-685c-4102-9a3e-463f20290f4b.JPG)
 
