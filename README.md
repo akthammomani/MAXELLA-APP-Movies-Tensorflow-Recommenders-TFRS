@@ -150,10 +150,10 @@ To learn more, see the [tutorial](https://www.tensorflow.org/recommenders/exampl
 ## 5. [Data Wrangling & Exploratory Data Analysis EDA](https://github.com/akthammomani/MAXELLA-APP-Movies-Tensorflow-Recommenders-TFRS/tree/main/Notebooks/Data_Wrangling_Exploratory_Data_Analysis_EDA)
 
 The Data wrangling step focuses on collecting our data, organizing it, and making sure it's well defined. For our project we have collected below datasets to have a good foundation so we can build a Deep Learning model with the best performance possible:
- * movie_lens/1m-ratings
- * movie_lens/1m-movies:
- * movies_metadata.csv
- * credits.csv
+ * [movie_lens/1m-ratings](https://www.tensorflow.org/datasets/catalog/movie_lens#movie_lens1m-ratings)
+ * [movie_lens/1m-movies](https://www.tensorflow.org/datasets/catalog/movie_lens#movie_lens1m-movies)
+ * [movies_metadata.csv](https://grouplens.org/datasets/movielens/)
+ * [credits.csv](https://grouplens.org/datasets/movielens/)
 
 
 
