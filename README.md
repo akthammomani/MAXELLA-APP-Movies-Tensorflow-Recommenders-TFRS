@@ -198,6 +198,6 @@ One of the nice things about DCN is that we can visualize the weights from the c
 As shown above, the stronger the interaction between two features is. In this case, the feature cross of user ID and movie ID, director, star are of great importance.
 
 
-
+## 7. [Machine Learning Modeling: TensorFlow Recommenders (TFRS)](https://github.com/akthammomani/MAXELLA-APP-Movies-Tensorflow-Recommenders-TFRS/tree/main/Notebooks/TFRS-Modelling)
 
 
