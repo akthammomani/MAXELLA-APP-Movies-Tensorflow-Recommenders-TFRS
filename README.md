@@ -39,7 +39,9 @@ TensorFlow Recommender (TFRS) is a brand new package where there’s very low us
 
 
 
-## Dataset: 
+## 3. Dataset: 
+
+Because of the richness of the metadata in Tensorflow Movie Lens dataset, we have decided to choose 1 million Movie lens from TensorFlow to be our main dataset for this project. Also, we used both datasets from [Movielens website](https://grouplens.org/datasets/movielens/): movies metadata & credits.
 
 **Movie Lens** contains a set of movie ratings from the MovieLens website, a movie recommendation service. This dataset was collected and maintained by [GroupLens](https://grouplens.org/) , a research group at the University of Minnesota. There are 5 versions included: "25m", "latest-small", "100k", "1m", "20m". In all datasets, the movies data and ratings data are joined on "movieId". The 25m dataset, latest-small dataset, and 20m dataset contain only movie data and rating data. The 1m dataset and 100k dataset contain demographic data in addition to movie and rating data.
 
@@ -87,6 +89,9 @@ TensorFlow Recommender (TFRS) is a brand new package where there’s very low us
  * "user_occupation_label": the occupation of the user who made the rating represented by an integer-encoded label; labels are preprocessed to be consistent across different versions
  * "user_occupation_text": the occupation of the user who made the rating in the original string; different versions can have different set of raw text labels
  * "user_zip_code": the zip code of the user who made the rating.
+ * "release_date": This is the movie release date, in unix epoch (UTC - units of seconds) (int64).
+ * "director": This is the director of the movie.
+ * "start": This is the main star of the movie.
  * Download size: 5.64 MiB
  * Dataset size: 308.42 MiB
  * Auto-cached ([documentation](https://www.tensorflow.org/datasets/performances#auto-caching)): No
