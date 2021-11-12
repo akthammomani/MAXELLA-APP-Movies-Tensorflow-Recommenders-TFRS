@@ -132,7 +132,7 @@ pip install --upgrade tensorflow-datasets
 pip install ipywidgets
 ```
 
-**Why choosing **TensorFlow Recommenders (TFRS)**?
+**Why choosing **TensorFlow Recommenders (TFRS)?**
 
  * TensorFlow Recommenders (TFRS) is a library for building recommender system models.
  * It helps with the full workflow of building a recommender system: data preparation, model formulation, training, evaluation, and deployment.
