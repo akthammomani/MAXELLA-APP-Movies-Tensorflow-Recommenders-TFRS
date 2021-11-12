@@ -171,6 +171,5 @@ We have 4 Datasets to support this project as shown above, so we'll focus in bel
    * Change the data types of the important features to fit with Tensorflow-Recommender TFRS Library.
    * Keep in mind tfds currently does not support float64 so we'll be using int64 or float32 depends on the data.
    * Wrap the pandas DataFrame into tf.data.Dataset object using tf.data.Dataset.from_tensor_slices (To check other options - [here](https://www.srijan.net/resources/blog/building-a-high-performance-data-pipeline-with-tensorflow#gs.f33srf))
-
-
+   * Movie Lens dataset transformation after Data Wrangling:
 ![dataset_head](https://user-images.githubusercontent.com/67468718/141497590-35895da5-f162-4df6-acbd-6f25ae35562d.JPG)
