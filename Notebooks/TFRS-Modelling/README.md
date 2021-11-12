@@ -53,6 +53,28 @@ One of the nice things about DCN is that we can visualize the weights from the c
 As shown above, the stronger the interaction between two features is. In this case, the feature cross of user ID and movie ID, director, star are of great importance.
 
 
+## 2. First Stage: Retrieval (The Two Towers Model)
+
+Real-world recommender systems are often composed of two stages:
+
+ * The retrieval stage (Selects recommendation candidates): is responsible for selecting an initial set of hundreds of candidates from all possible candidates. The main objective of this model is to efficiently weed out all candidates that the user is not interested in. Because the retrieval model may be dealing with millions of candidates, it has to be computationally efficient.
+
+ * The ranking stage (Selects the best candidates and rank them): takes the outputs of the retrieval model and fine-tunes them to select the best possible handful of recommendations. Its task is to narrow down the set of items the user may be interested in to a shortlist of likely candidates.
+
+Retrieval models are often composed of two sub-models:
+
+The retrieval model embeds user ID's and movie ID's of rated movies into embedding layers of the same dimension:
+
+ * A query model computing the query representation (normally a fixed-dimensionality embedding vector) using query features.
+ * A candidate model computing the candidate representation (an equally-sized vector) using the candidate features.
+ 
+As shown below, the two models are multiplied to create a query-candidate affinity scores for each rating during training. If the affinity score for the rating is higher than other for other candidates, then we can consider the model is a good one!
+
+<p align="center">
+  <img width="500" height="400" src="https://user-images.githubusercontent.com/67468718/141532926-3dab0bd3-2f8f-4a68-9b32-1461fdca0693.JPG">
+</p>
+
+![Retrieval](https://user-images.githubusercontent.com/67468718/141532926-3dab0bd3-2f8f-4a68-9b32-1461fdca0693.JPG)
 
 
 
