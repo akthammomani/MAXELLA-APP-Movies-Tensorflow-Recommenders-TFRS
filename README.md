@@ -20,6 +20,25 @@ There are mainly Three types of recommendation engines:
 </p>
 
 
+## 2. Problem Statement 
+
+This Project is all about how to successfully formulate a recommendation engine, the difference between implicit and explicit feedback and how to build a movie recommendation system with TensorFlow and TFRS. 
+
+
+**Context**
+
+Google/YouTube is all about connecting people to the movies/videos they love. To help customers find those movies, they developed world-class movie recommendation system called TensorFlow Recommender (TFRS). Its job is to predict whether someone will enjoy a movie based on how much they liked or disliked other movies. Google/YouTube uses those predictions to make personal videos recommendations based on each user’s unique tastes. 
+
+**Criteria Of Success**
+
+Be apple to successfully build a Movie Recommendation engine with the highest possible retrieval accuracy (Predicting Movies) AND with the lowest Loss/RMSE (Ranking Movies)
+
+**Constraints**
+
+TensorFlow Recommender (TFRS) is a brand new package where there’s very low used cases, so for the success of this project there will be plenty of research involved to successfully complete this project.
+
+
+
 ## Dataset: 
 
 **Movie Lens** contains a set of movie ratings from the MovieLens website, a movie recommendation service. This dataset was collected and maintained by [GroupLens](https://grouplens.org/) , a research group at the University of Minnesota. There are 5 versions included: "25m", "latest-small", "100k", "1m", "20m". In all datasets, the movies data and ratings data are joined on "movieId". The 25m dataset, latest-small dataset, and 20m dataset contain only movie data and rating data. The 1m dataset and 100k dataset contain demographic data in addition to movie and rating data.
