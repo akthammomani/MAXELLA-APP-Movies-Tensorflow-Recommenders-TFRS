@@ -155,5 +155,21 @@ The Data wrangling step focuses on collecting our data, organizing it, and makin
  * [movies_metadata.csv](https://grouplens.org/datasets/movielens/)
  * [credits.csv](https://grouplens.org/datasets/movielens/)
 
+We have 4 Datasets to support this project as shown above, so we'll focus in below:
+ * Convert Tensorflow datasets (1m-ratings and 1m-movies) from Tensorflow (ensorflow_datasets.core.as_dataframe.StyledDataFrame) to pandas DataFrame (pandas.core.frame.DataFrame) for easy data wrangling (Some Pandas method doesn’t work well with StyledDataFrame from TensorFlow)
+ * Fix any wrong values in user_zip_code (Any zipcode >5 characters).   
+ * Fixing "movie_genres": let's make sure that genres are the format of a list for easy access. Merging and concatenation will be needed.
+ * Fixing "user_occupation_label": one category label is missing "10" causing 'K-12 student' & 'college/grad student' to be labeled as "17" so here, we'll assign "10" to 'K-12 student'. 
+ * Add 5 more features to the original Dataset: 'cast', 'director', 'cast_size', 'crew_size', 'imdb_id', 'release_date' and movie_lens_movie_id --> Will get these features using 2 datasets from Movielens website: movies_metadata.csv & credits.csv
+ * Fix existing wrong movie title (or in some cases misspelled).
+ * Remove all special characters or letter accents from Movie titles, cast and director.
+ * Add movie id which is matching the original movie id in the movie lens original dataset (for some reason the movie id from Tensorflow dataset is not matching).
+ * Fix duplicates movie_title with same movie_id.
+ * After fixing above items, we converted Pandas DataFrame to Tensorflow dataset:
+   * From 'cast' features, let's drop all secondary casting and keep only the star of the movie and let's call the feature "star".
+   * Let's make sure to keep only the important columns. 
+   * Change the data types of the important features to fit with Tensorflow-Recommender TFRS Library.
+   * Keep in mind tfds currently does not support float64 so we'll be using int64 or float32 depends on the data.
+   * Wrap the pandas DataFrame into tf.data.Dataset object using tf.data.Dataset.from_tensor_slices (To check other options - [here](https://www.srijan.net/resources/blog/building-a-high-performance-data-pipeline-with-tensorflow#gs.f33srf))
 
 
