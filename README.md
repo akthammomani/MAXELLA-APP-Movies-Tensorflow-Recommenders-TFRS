@@ -192,6 +192,10 @@ It starts with an input layer, typically an embedding layer, followed by a cross
 
 ![Personal_dataset_features_importance](https://user-images.githubusercontent.com/67468718/141506648-f485f9f9-13f4-432d-a0ed-d4ce1b673556.JPG)
 
+<p align="center">
+  <img width="300" height="300" src="https://user-images.githubusercontent.com/67468718/141506648-f485f9f9-13f4-432d-a0ed-d4ce1b673556.JPG">
+</p>
+
 One of the nice things about DCN is that we can visualize the weights from the cross network and see if it has successfully learned the important feature process.
 As shown above, the stronger the interaction between two features is. In this case, the feature cross of user ID and movie ID, director, star are of great importance.
 
