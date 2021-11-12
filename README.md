@@ -9,10 +9,11 @@
 
 Over the last few decades, with the advent of YouTube, Amazon, Netflix and many other Web services, recommendation platforms are becoming much more part of our lives from e commerce, suggesting the customers articles that could be of interest.
 In a very general way, Recommendation systems are algorithms program to present related things to users with items being movies to watch, books to read, products to buy or anything else, depending on the industry. Recommendation systems are very important in some industries because they can produce a large amount of money if they're effective, or if they are a way of standing out dramatically from competitors. The aim of the recommendation framework is to produce relevant suggestions for the collection of users of objects or products that may be of interest to them. Suggestions for Amazon books or Netflix shows are all really world examples of how industry leading systems work. The architecture of such recommendation engines depends on the domain and basic characteristics of the available data.
+
 There are mainly Three types of recommendation engines:
-•	Collaborative filtering.
-•	Content based Filtering.
-•	Hybrid (Combination of Collaborative and Content based Filtering).
+ * Collaborative filtering.
+ * Content based Filtering.
+ * Hybrid (Combination of Collaborative and Content based Filtering).
 
 
 ## Dataset: 
