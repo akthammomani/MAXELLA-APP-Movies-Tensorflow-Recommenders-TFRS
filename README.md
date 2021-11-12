@@ -132,34 +132,6 @@ FeaturesDict({
               'movie_title': tf.string,
             })
 ```
-Example:
-|movie_genres	|movie_id	|movie_title|
-|:-----:|:-----:|:-----:|
-|4 (Comedy) |b'1681'	|b'You So Crazy (1994)'|	
-|0 (Action)|b'838'	|b'In the Line of Duty 2 (1987)'|
-
-
-**Citation:**
-```
-@article{10.1145/2827872,
-author = {Harper, F. Maxwell and Konstan, Joseph A.},
-title = {The MovieLens Datasets: History and Context},
-year = {2015},
-issue_date = {January 2016},
-publisher = {Association for Computing Machinery},
-address = {New York, NY, USA},
-volume = {5},
-number = {4},
-issn = {2160-6455},
-url = {https://doi.org/10.1145/2827872},
-doi = {10.1145/2827872},
-journal = {ACM Trans. Interact. Intell. Syst.},
-month = dec,
-articleno = {19},
-numpages = {19},
-keywords = {Datasets, recommendations, ratings, MovieLens}
-           }
-```
 
 ## 4. TensorFlow Recommenders Installation:
 
