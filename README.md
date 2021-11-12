@@ -5,6 +5,18 @@
   <img width="300" height="300" src="https://user-images.githubusercontent.com/67468718/126877962-1c3737b7-69bb-40f4-a92f-7652d52240ac.JPG">
 </p>
 
+## Contents
+
+ * Introduction
+ * Problem Statement
+ * Dataset
+ * TensorFlow Recommenders Installation (TFRS)
+ * [Data Wrangling & Exploratory Data Analysis EDA](https://github.com/akthammomani/MAXELLA-APP-Movies-Tensorflow-Recommenders-TFRS/tree/main/Notebooks/Data_Wrangling_Exploratory_Data_Analysis_EDA)
+ * [Features Importance Using Deep & Cross Network (DCN-v2)](https://github.com/akthammomani/MAXELLA-APP-Movies-Tensorflow-Recommenders-TFRS/tree/main/Notebooks/TFRS-Features-Importance)
+ * [Machine Learning Modeling: TensorFlow Recommenders (TFRS)](https://github.com/akthammomani/MAXELLA-APP-Movies-Tensorflow-Recommenders-TFRS/tree/main/Notebooks/TFRS-Modelling)
+ * Future work
+
+
 ## 1. Introduction 
 
 Over the last few decades, with the advent of YouTube, Amazon, Netflix and many other Web services, recommendation platforms are becoming much more part of our lives from e commerce, suggesting the customers articles that could be of interest.
