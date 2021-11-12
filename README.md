@@ -190,10 +190,8 @@ We have 4 Datasets to support this project as shown above, so we'll focus in bel
 In real world recommendation systems, we often have large and sparse feature space. So, identifying effective feature processes in this setting would often require manual feature engineering or exhaustive search, which is highly inefficient. To tackle this issue, Google Research team has proposed Deep and Cross Network, DCN.
 It starts with an input layer, typically an embedding layer, followed by a cross network containing multiple cross layers that models explicitly feature interactions, and then combines with a deep network that models implicit feature interactions. The deep network is just a traditional multilayer construction. But the core of DCN is really the cross network. It explicitly applies feature crossing at each layer. And the highest polynomial degree increases with layer depth. The figure here shows the deep and cross layer in the mathematical form.
 
-![Personal_dataset_features_importance](https://user-images.githubusercontent.com/67468718/141506648-f485f9f9-13f4-432d-a0ed-d4ce1b673556.JPG)
-
 <p align="center">
-  <img width="300" height="300" src="https://user-images.githubusercontent.com/67468718/141506648-f485f9f9-13f4-432d-a0ed-d4ce1b673556.JPG">
+  <img width="400" height="400" src="https://user-images.githubusercontent.com/67468718/141506648-f485f9f9-13f4-432d-a0ed-d4ce1b673556.JPG">
 </p>
 
 One of the nice things about DCN is that we can visualize the weights from the cross network and see if it has successfully learned the important feature process.
