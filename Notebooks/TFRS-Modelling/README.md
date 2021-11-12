@@ -135,3 +135,10 @@ Due to the important and the high possibility of this model:
 As shown below, Joint Model failed to beat baseline Joint model:
 
 ![multi task](https://user-images.githubusercontent.com/67468718/141533627-d706c4f9-bc8f-421d-ae65-6ed315fe0835.JPG)
+
+**Next Step**
+
+As I mentioned, there’s huge potential in this model before we give up, so we’ll complete:
+ * More Hyperparameters fine tuning.
+ * Add the missing sequential features like movie_genres and age (Model failed), so there will be more research in this part.
+
