@@ -74,7 +74,26 @@ As shown below, the two models are multiplied to create a query-candidate affini
   <img width="500" height="400" src="https://user-images.githubusercontent.com/67468718/141532926-3dab0bd3-2f8f-4a68-9b32-1461fdca0693.JPG">
 </p>
 
-![Retrieval](https://user-images.githubusercontent.com/67468718/141532926-3dab0bd3-2f8f-4a68-9b32-1461fdca0693.JPG)
+**Embedding layer Magic**
 
+As shown above, we might think of the embedding layers as just a way of encoding right a way of forcing the categorical data into some sort of a standard format that can be easily fed into a neural network and usually that's how it's used but embedding layers are more than that! The way they're working under the hood is every unique id is being mapped to a vector of n dimensions maybe it's 32 dimensions or 64 dimensions, but it's going to be like a vector of 32 floating point values and we can think of this as a position in a 32-dimensional space that represents the similarity between one user id and another or between one movie id and another so by using embedding layers in this way we're kind of getting around that whole problem of data sparsity and sparse vectors and at the same time, we're getting a measure of similarity out of the deal as well so it's a very simple and straightforward way of getting a recommendation candidates and then we could just brute force sort them all and get our top k recommendations.
+
+
+The outputs of the two models are then multiplied together to give a query-candidate affinity score, with higher scores expressing a better match between the candidate and the query.
+
+In this Model, we built and trained such a two-tower model using the Movielens dataset (1m Dataset):
+ * Get our data and split it into a training and test set.
+ * Implement a retrieval model.
+ * Fit and evaluate it.
+
+**Tuning Summary**
+
+As we can see below, we managed to improve accuracy and reduce loss by:
+ * Increase embedding_dimension from 32-> 64
+ * keeping learning_rate 0.1
+ 
+As a result, loss was reduced from 903.56 (Baseline) to 846.05 and top_10_accuracy was improved from 3.2% to 4.3%.
+
+![2_tower](https://user-images.githubusercontent.com/67468718/141533117-466991f0-bf30-4a4e-bd8f-c8bdb2bbf81d.JPG)
 
 
