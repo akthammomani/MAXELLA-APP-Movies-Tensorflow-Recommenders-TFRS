@@ -102,7 +102,6 @@ Because of the richness of the metadata in Tensorflow Movie Lens dataset, we hav
                'movie_genres': Sequence(ClassLabel(shape=(), dtype=tf.int64, num_classes=21)),
                'movie_id': tf.string,
                'movie_title': tf.string,
-               'raw_user_age': tf.float32,
                'timestamp': tf.int64,
                'user_gender': tf.bool,
                'user_id': tf.string,
@@ -110,6 +109,9 @@ Because of the richness of the metadata in Tensorflow Movie Lens dataset, we hav
                'user_occupation_text': tf.string,
                'user_rating': tf.float32,
                'user_zip_code': tf.string,
+               'release_date': tf.int64,
+               'director': tf.string,
+               'star': tf.string,
              })
  ```
  Example:
