@@ -87,13 +87,51 @@ In this Model, we built and trained such a two-tower model using the Movielens d
  * Fit and evaluate it.
 
 **Tuning Summary**
-```
+
 As we can see below, we managed to improve accuracy and reduce loss by:
  * Increase embedding_dimension from 32-> 64
  * keeping learning_rate 0.1
-``` 
+
 As a result, loss was reduced from 903.56 (Baseline) to 846.05 and top_10_accuracy was improved from 3.2% to 4.3%.
 
 ![2_tower](https://user-images.githubusercontent.com/67468718/141533117-466991f0-bf30-4a4e-bd8f-c8bdb2bbf81d.JPG)
 
+## 3. Second Stage: Ranking
 
+The ranking stage takes the outputs of the retrieval model and fine-tunes them to select the best possible handful of recommendations. Its task is to narrow down the set of items the user may be interested in to a shortlist of likely candidates.
+
+**Tuning Summary**
+
+As shown below, we managed to reduce RMSE and loss from 93% to 86.89% and 81% to 64% respectively using below: 
+ * Increased embedding_dimension from 32 ==> 64.
+ * Increased epochs from 3 ==> 32
+ * Increase Dense Layers from 2 ==> 4
+ * Adding Dropout + Adding Max Norm
+
+![ranking](https://user-images.githubusercontent.com/67468718/141533444-21ec4ccd-a272-4d87-a7a8-460b25bb7375.JPG)
+
+## 4. Multi-Task Model (Joint Model): The Two Tower + The Ranking Models
+
+In the TFRS Modeling - Two-Tower we built a retrieval system using movie watches as positive interaction signals.
+In many applications, however, there are multiple rich sources of feedback to draw upon. For example, an e-commerce site may record user visits to product pages (abundant, but relatively low signal), image clicks, adding to cart, and, finally, purchases. It may even record post-purchase signals such as reviews and returns.
+Integrating all these different forms of feedback is critical to building systems that users love to use, and that do not optimize for any one metric at the expense of overall performance.
+In addition, building a joint model for multiple tasks may produce better results than building a number of task-specific models. This is especially true where some data is abundant (for example, clicks), and some data is sparse (purchases, returns, manual reviews). In those scenarios, a joint model may be able to use representations learned from the abundant task to improve its predictions on the sparse task via a phenomenon known as transfer learning. For example, this paper shows that a model predicting explicit user ratings from sparse user surveys can be substantially improved by adding an auxiliary task that uses abundant click log data.
+In this Model, we built a multi-objective recommender for Movielens, using both implicit (movie watches) and explicit signals (ratings).
+
+Due to the important and the high possibility of this model:
+ * We’ll focusing in using the important features as shown from DCN-v2 (Figure 25): "user_occupation_text", "user_gender", "director", "star", "bucketized_user_age",
+ * Normalize all Numerical Features: timestamps, user_age, user_gender.
+ * Reconfigured all Movie Lens Classes (TensorFlow Recommenders) to accommodate the new embedding design due to new features, having deeper neural networks and adding regularization to help overfitting:
+   * class UserModel
+   * class QueryModel
+   * class MovieModel
+   * class MovieModel
+   * class CandidateModel
+   * class MovielensModel
+
+
+**Tuning Summary**
+
+As shown below, Joint Model failed to beat baseline Joint model:
+
+![multi task](https://user-images.githubusercontent.com/67468718/141533627-d706c4f9-bc8f-421d-ae65-6ed315fe0835.JPG)
