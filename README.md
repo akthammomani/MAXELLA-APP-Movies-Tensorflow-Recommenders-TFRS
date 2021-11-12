@@ -5,6 +5,7 @@
   <img width="300" height="300" src="https://user-images.githubusercontent.com/67468718/126877962-1c3737b7-69bb-40f4-a92f-7652d52240ac.JPG">
 </p>
 
+```
 ## Contents
 
  * Introduction
@@ -15,7 +16,7 @@
  * [Features Importance Using Deep & Cross Network (DCN-v2)](https://github.com/akthammomani/MAXELLA-APP-Movies-Tensorflow-Recommenders-TFRS/tree/main/Notebooks/TFRS-Features-Importance)
  * [Machine Learning Modeling: TensorFlow Recommenders (TFRS)](https://github.com/akthammomani/MAXELLA-APP-Movies-Tensorflow-Recommenders-TFRS/tree/main/Notebooks/TFRS-Modelling)
  * Future work
-
+```
 
 ## 1. Introduction 
 
