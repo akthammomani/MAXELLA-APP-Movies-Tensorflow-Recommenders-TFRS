@@ -181,4 +181,5 @@ We have 4 Datasets to support this project as shown above, so we'll focus in bel
      * Also, we'll be using external databases:
        * To get the coordinate of the zipcodes --> This is needed for to highlight the zipcodes as labels in the map.
        * To get a geoJSON file which has coordinates of zipcode --> This is needed to map the zip codes boundaries.
+       ![folium_rating](https://user-images.githubusercontent.com/67468718/141501541-e2ae7e21-118d-4fff-bec4-49c78aafa29d.JPG)
 
