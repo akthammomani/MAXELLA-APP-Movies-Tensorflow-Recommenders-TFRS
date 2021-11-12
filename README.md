@@ -215,3 +215,10 @@ TensorFlow Recommenders (TFRS):
  * Multi-Task Model (Joint Model: Retrieval + Ranking)
    ![multi task](https://user-images.githubusercontent.com/67468718/141519425-d741a96c-685c-4102-9a3e-463f20290f4b.JPG)
 
+
+## 8. Future Work
+
+ * More research is needed to optimize existing Tensorflow Recommenders Classes to accommodate the extra features created in this project
+ * More fine tune is needed in order a better retrieval prediction and low RMSE Ranking from the Joint Model (Multi-Task)
+ * Explore and check Listwise ranking and see the benefits if any.
+ * Building Maxilla App
