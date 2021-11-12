@@ -12,7 +12,7 @@ Here comes the really fun step: modeling! For this step, we'll be:
  * Apply hyperparameters tuning where applicable to ensure every algorithm will result in best prediction possible.
  * Finally, evaluate these Models.
 
-## 1. Features Importance Using Deep & Cross Network (DCN-V2)
+## 1. [Features Importance Using Deep & Cross Network (DCN-V2)](https://github.com/akthammomani/MAXELLA-APP-Movies-Tensorflow-Recommenders-TFRS/tree/main/Notebooks/TFRS-Features-Importance)
 
 Deep and cross network, short for DCN, came out of Google Research, and is designed to learn explicit and bounded-degree cross features effectively:
  * Large and sparse feature space is extremely hard to train.
