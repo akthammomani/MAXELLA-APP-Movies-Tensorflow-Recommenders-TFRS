@@ -121,7 +121,7 @@ In this Model, we built a multi-objective recommender for Movielens, using both 
 Due to the important and the high possibility of this model:
  * We’ll focusing in using the important features as shown from DCN-v2 (Figure 25): "user_occupation_text", "user_gender", "director", "star", "bucketized_user_age",
  * Normalize all Numerical Features: timestamps, user_age, user_gender.
- * Reconfigured all Movie Lens Classes (TensorFlow Recommenders) to accommodate the new embedding design due to new features, having deeper neural networks and adding regularization to help overfitting:
+ * Reconfigured all Movie Lens Classes (TensorFlow Recommenders) to accommodate the new embedding design due to new features, normalization of numerical features, having deeper neural networksand adding regularization to help overfitting:
    * class UserModel
    * class QueryModel
    * class MovieModel
