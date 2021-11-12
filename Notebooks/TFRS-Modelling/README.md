@@ -43,10 +43,10 @@ We first train a DCN model with a stacked structure, that is, the inputs are fed
   <img width="300" height="300" src="https://user-images.githubusercontent.com/67468718/141532309-64ed02a9-8539-4443-89d8-ca71db690cb3.JPG">
 </p>
 
-*8DCN-v2: Features Importance**
+**DCN-v2: Features Importance**
 
 <p align="center">
-  <img width="300" height="300" src="https://user-images.githubusercontent.com/67468718/141532309-64ed02a9-8539-4443-89d8-ca71db690cb3.JPG">
+  <img width="500" height="500" src="https://user-images.githubusercontent.com/67468718/141532309-64ed02a9-8539-4443-89d8-ca71db690cb3.JPG">
 </p>
 
 ![Personal_dataset_features_importance](https://user-images.githubusercontent.com/67468718/141532468-0272f2a7-5242-4dff-b756-22397424e09c.JPG)
