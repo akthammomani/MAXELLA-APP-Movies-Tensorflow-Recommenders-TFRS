@@ -16,10 +16,9 @@ There are mainly Three types of recommendation engines:
  * Hybrid (Combination of Collaborative and Content based Filtering).
 
 <p align="center">
-  <img width="550" height="350" src="https://user-images.githubusercontent.com/67468718/141490540-cdf1e250-0282-4c5d-8496-f9fd3e3b8217.JPG">
+  <img width="500" height="350" src="https://user-images.githubusercontent.com/67468718/141490540-cdf1e250-0282-4c5d-8496-f9fd3e3b8217.JPG">
 </p>
 
-![recommender_types](https://user-images.githubusercontent.com/67468718/141490719-bb2c55cb-afff-4431-a130-150889951680.JPG)
 
 ## Dataset: 
 
