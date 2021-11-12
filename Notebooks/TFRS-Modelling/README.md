@@ -49,7 +49,9 @@ We first train a DCN model with a stacked structure, that is, the inputs are fed
   <img width="500" height="400" src="https://user-images.githubusercontent.com/67468718/141532468-0272f2a7-5242-4dff-b756-22397424e09c.JPG">
 </p>
 
-![Personal_dataset_features_importance](https://user-images.githubusercontent.com/67468718/141532468-0272f2a7-5242-4dff-b756-22397424e09c.JPG)
+One of the nice things about DCN is that we can visualize the weights from the cross network and see if it has successfully learned the important feature process.
+As shown above, the stronger the interaction between two features is. In this case, the feature cross of user ID and movie ID, director, star are of great importance.
+
 
 
 
