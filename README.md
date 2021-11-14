@@ -232,6 +232,6 @@ TensorFlow Recommenders (TFRS):
 ## 8. Future Work
 
  * More research is needed to optimize existing Tensorflow Recommenders Classes to accommodate the extra features created in this project
- * More fine tune is needed in order a better retrieval prediction and low RMSE Ranking from the Joint Model (Multi-Task)
+ * More fine tune is needed to improve retrieval prediction and reduce RMSE/loss Ranking from the Joint Model (Multi-Task)
  * Explore and check Listwise ranking and see the benefits if any.
  * Building Maxilla App
