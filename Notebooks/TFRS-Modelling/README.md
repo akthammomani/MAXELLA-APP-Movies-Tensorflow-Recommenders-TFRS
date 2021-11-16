@@ -125,7 +125,6 @@ Due to the important and the high possibility of this model:
    * class UserModel
    * class QueryModel
    * class MovieModel
-   * class MovieModel
    * class CandidateModel
    * class MovielensModel
 
