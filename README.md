@@ -44,7 +44,7 @@ Google/YouTube is all about connecting people to the movies/videos they love. To
 
 **Criteria Of Success**
 
-Be apple to successfully build a Movie Recommendation engine with the highest possible retrieval accuracy (Predicting Movies) AND with the lowest Loss/RMSE (Ranking Movies)
+The ability to build a Movie Recommendation Engine with the highest possible retrieval accuracy (Predicting Movies) AND with the lowest Loss/RMSE (Ranking Movies)
 
 **Constraints**
 
