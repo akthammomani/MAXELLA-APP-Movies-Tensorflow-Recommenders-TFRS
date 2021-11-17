@@ -5,7 +5,6 @@
 ##                   TensorFlow Recommenders (TFRS)                 ##
 ##           TFRS - Tuning Retrieval (The Two Towers Model)         ##
 ##                      Created by: Aktham Momani                   ##
-##                            Aug 05 2021                           ##
 ###################################################################### 
 # 
 # 
