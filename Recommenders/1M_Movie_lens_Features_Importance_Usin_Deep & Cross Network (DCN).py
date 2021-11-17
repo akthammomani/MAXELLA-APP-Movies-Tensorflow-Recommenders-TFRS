@@ -7,7 +7,6 @@
 ##                   TensorFlow Recommenders (TFRS)                 ##
 ##      Features Importance Using Deep & Cross Network (DCN-V2)     ##    
 ##                      Created by: Aktham Momani                   ##
-##                            Oct 13 2021                           ##
 ###################################################################### 
 # 
 # 
