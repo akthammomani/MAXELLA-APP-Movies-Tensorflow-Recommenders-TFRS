@@ -5,7 +5,6 @@
 ##                   TensorFlow Recommenders (TFRS)                 ##
 ##            First Stage: Retrieval (The Two-Tower Model)          ##
 ##                      Created by: Aktham Momani                   ##
-##                            Aug 02 2021                           ##
 ###################################################################### 
 
 
